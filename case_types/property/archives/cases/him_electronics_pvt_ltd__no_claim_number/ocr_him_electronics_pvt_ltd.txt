@@ -1,0 +1,1762 @@
+
+
+===== DOCUMENT: Unknown Document (0145 all.pdf) =====
+
+--- Page 1 ---
+Message Identifier
+
+Message Preparation
+Application:
+
+Unique Message Identifier:
+
+Alliance Message Management
+
+Message Header
+
+Status: Deletable
+
+Format: Swift Sub-Format:
+Identifier: fin.700 Expansion:
+Application FIN Nature:
+Sender: GLBBNPKAXXX LT:
+
+Receiver: KKBKINBBXXX LT:
+Transaction Reference: IUDFOA126INRO145
+
+Priority: Normal
+
+Monitoring: None
+
+Amount: 44.446.200, Currency: INR
+
+Required Number of Signatures: 2
+
+ACK/NAK Reception Date/Time 2026/01/12 10:15:41
+(GMT):
+
+Message Text
+
+Block 4
+F27: Sequence of Total
+Number: 1/
+Total: 1
+F40A: Form of Documentary Credit
+
+IRREVOCABLE TRANSFERABLE
+F20: Documentary Credit Number
+
+IUDFOA126INRO145
+F31C: Date of Issue
+260109 2026 Jan 09
+F40E: Applicable Rules
+Applicable Rules: UCP LATEST VERSION
+F31D: Date and Place of Expiry
+Date: 260405 2026 Apr 05
+Place: ,AT INDIA
+F51A: Applicant Bank - Party Identifier - Identifier Code
+
+Identifier Code:
+GLBBNPKA
+GLOBAL IME BANK LIMITED
+
+KATHMANDU NP
+F50: Applicant
+HIM ELECTRONICS PVT. LTD
+NARAYANCHAUR NAXAL, P.O.BOX
+NO.6633 KATHMANDU, NEPAL
+PAN: 300044627
+F59: Beneficiary
+Name and Address:
+UST RESOURCES LLP
+(PLEASE REFER TO CLAUSE NO. 17
+UNDER FIELD 47A FOR DETAILS)
+
+F32B: Currency Code, Amount
+Currency: INR INDIAN RUPEE
+Amount: 44446200, #44.446.200,#
+F39A: Percentage Credit Amount Tolerance
+Tolerance 1: 0/
+Tolerance 2: 0
+F41D: Available With ... By - Name and Address - Code
+Name and Address: ANY BANK IN INDIA
+Code: BY NEGOTIATION
+F42C: Drafts at
+15 DAYS FROM COMMERCIAL INVOICE
+DATE
+F42A: Drawee - Party Identifier - Identifier Code
+
+Identifier Code:
+
+| KKBKINBBXXxX 700 IUDF0OA126INR0145 (suffix 260112154257752)
+
+Input
+
+Issue of a Documentary Credit
+Financial
+
+A
+
+x
+
+Value Date:
+
+Page 37 of 165
+
+
+--- Page 2 ---
+F43P:
+
+F43T:
+
+7442:
+
+7448:
+
+१440:
+
+7452:
+
+7462:
+
+GLBBNPKA
+GLOBAL IME BANK LIMITED
+
+KATHMANDU NP
+
+Partial Shipments
+
+ALLOWED
+
+Transhipment
+
+ALLOWED
+
+Place of Taking in Charge/Dispatch from .../Place of Receipt
+
+NOIDA, INDIA
+
+Place of Final Destination/For Transportation to .../Place of Delivery
+
+KATHMANDU, NEPAL VIA BHAIRAHAWACUSTOMS OFFICE, NEPAL
+
+Latest Date of Shipment
+
+260315 2026 Mar 15
+
+Description of Goods and/or Services
+
+HIMSTAR BRAND REFRIGERATORS (CFC FREE)
+
+‘AL QUANTITY: 5,760 NOS, TOTAL LC VALUE: INR 44,446,200.00
+DETAILED DESCRIPTION OF GOODS AS PER PROFORMA INVOICE NO:
+DEMPL-00251 DATED DECEMBER 22, 2025 WITH HARMONIC CODE NUMBER:
+8418.21.00
+
+DELIVERY TERMS: EX-WORKS NOIDA, INDIA (INCOTERMS 2020)
+
+COUNTRY OF ORIGIN: INDIA
+
+Documents Required
+
+1. DRAFT TO BE DRAWN 15 DAYS FROM COMMERCIAL INVOICE DATE ON
+GLOBAL IME BANK LTD, CORPORATE OFFICE, KAMALADI, KATHMANDU,
+NEPAL QUOTING LC NUMBER AND LC ISSUE DATE.
+
+2. MANUALLY SIGNED COMMERCIAL INVOICE IN ONE ORIGINAL AND THREE
+COPIES ON EX-WORKS NOIDA, INDIA (INCOTERMS 2020) BASIS TO BE
+ISSUE BY FIRST BENEFICIARY.
+
+3. LORRY RECEIPT/TRUCK RECEIPT/CONSIGNMENT NOTE ORIGINAL
+CONSIGNEE COPY IN ONE ORIGINAL AND THREE COPIES ISSUED BY
+CARRIER OR ITS AUTHORIZED AGENT CONSIGNED TO GLOBAL IME BANK
+LIMITED, NEPAL MARKED 'FREIGHT TO COLLECT' AND NOTIFY APPLICANT.
+4. CERTIFICATE OF ORIGIN CERTIFYING THAT GOODS ARE OF INDIA
+ORIGIN IN ONE ORIGINAL AND THREE COPIES ISSUED BY
+BENEFICIARY/CHAMBER OF COMMERCE.
+
+5. PACKING LIST IN ONE ORIGINAL AND THREE COPIES.
+
+F47A: Additional Conditions
+
+1. ANY DOCUMENT (S) HAVING DATE PRIOR TO DATE OF L/C ISSUANCE
+AND PRIOR TO DATE OF AMENDMENT ON L/C VALUE (IF ANY) IS STRICTLY
+PROHIBITED.
+
+2. IF DOCUMENTS PRESENTED UNDER THIS LC ARE FOUND TO BE
+DISCREPANT, WE MAY GIVE ITS NOTICE OF REFUSAL AND HOLD DOCUMENTS
+AT NEGOTIATING BANK'S DISPOSAL. NEVERTHELESS, IF WE RECEIVE THE
+WAIVER OF DISCREPANCIES FROM THE APPLICANT PRIOR TO RECEIPT OF
+THE MESSAGE OF NEGOTIATING BANK'S DISPOSAL OR INSTRUCTION AND
+ARE UP TO OUR CONCURRENCE, WE SHALL RELEASE THE DOCUMENTS TO THE
+APPLICANT WITHOUT NEGOTIATING BANK'S PERMISSION AND FURTHER
+NOTICE TO THEM. FURTHERMORE, A FEE OF INR 2,500.00 PLUS
+COMMUNICATION CHARGE OF INR 1,000.00 AND ANY OTHER FEES
+ASSOCIATED WITH DISCREPANCIES NOTIFICATIONS WILL BE DEDUCTED
+FROM THE PROCEEDS FOR EACH SET OF DOCUMENTS PRESENTED WITH
+DISCREPANCIES.
+
+3. THE NUMBER AND DATE OF THE CREDIT, HARMONIC CODE NUMBER AND
+THE NAME OF THE L/C ISSUING BANK MUST BE QUOTED ON DRAFT AND ALL
+DOCUMENTS REQUIRED. HOWEVER, DRAFT NEED NOT MENTION HARMONIC
+CODE NUMBER.
+
+4. NEGOTIATING BANK TO CERTIFY IN ITS COVERING SCHEDULE THAT
+ADVISING CHARGES AND COMMUNICATION CHARGES OF FIRST ADVISING
+BANK ARE PAID BY THE BENEFICIARY AT THE TIME OF NEGOTIATION OF
+LC. OTHERWISE WE MAY DEDUCT ADVISING CHARGES FROM THE PROCEEDS.
+5. COMMERCIAL INVOICE SHOULD MENTION DESCRIPTION OF GOODS AS PER
+FIELD 45A
+
+6. COMMERCIAL INVOICE/TRANSPORT DOCUMENTS MUST MENTION 'GOODS
+ARE IN TRANSIT TO FINAL DESTINATION IN KATHMANDU, NEPAL VIA
+BHAIRAHAWA CUSTOMS OFFICE, BHAIRAHAWA, NEPAL'
+
+7. MATHEMATICAL CALCULATIONS SHOULD BE CORRECT IN ALL DOCUMENTS
+AND THE CONTENTS OF ONE DOCUMENT MUST MATCH WITH THE CONTENTS OF
+ANOTHER DOCUMENT.
+
+8. ALL PARTIES TO THIS CREDIT ARE ADVISED THAT THE U.S AND
+OTHER GOVERNMENT AND/OR REGULATORY AUTHORITIES IMPOSE SPECIFIC
+SANCTIONS AGAINST CERTAIN COUNTRIES, INDIVIDUAL, ENTITIES,
+VESSELS UNDER SUCH CIRCUMSTANCES, ISSUING BANK MAY BE UNABLE TO
+PROCESS THE TRANSACTION AND/OR EFFECT PAYMENT OR THE PAYMENT MAY
+BE DELAYED IN CASE OF GOODS ORIGINATING FROM OR
+
+Page 38 of 165
+
+
+--- Page 3 ---
+F71D:
+
+F48:
+
+F49:
+
+F78:
+
+F57D:
+
+F722:
+
+Other
+
+SHIPMENT/TRANSSHIPMENT TO/FROM ANY SUCH SANCTIONS
+
+9. THIRD PARTY DOCUMENTS ARE ACCEPTABLE EXCEPT DRAFT AND
+COMMERCIAL INVOICE.
+
+10. L/C VALUE SHOULD NOT BE OVERDRAWN. IF PARTIAL SHIPMENT IS
+PROHIBITED IN L/C, GOODS MUST BE SHIPPED IN FULL IN SINGLE LOT.
+11. ALL DOCUMENTS CALLED UNDER THE TERMS OF THIS CREDIT MUST BE
+EXPRESSED IN ENGLISH.
+
+12. APPLICANT'S EXIM CODE NO IS 3000446270134NP, EMAIL ADDRESS
+IS BANKING (AT) GOLCHHAGROUP.COM.NP, APPLICANT'S CONTACT NUMBER
+IS +977-1-4444555 AND BENEFICIARY'S EMAIL ADDRESS IS SOURITRANA
+(AT) YAHOO.COM
+
+13. ADVISE THROUGH BANK DETAILS:
+
+KOTAK MAHINDRA BANK
+
+PLOT NO-4, NORTH WEST AVENUE ROAD,
+
+CLUB ROAD, PANJABI BAGH, DELHI, 110026 , INDIA
+
+ACCOUNT NUMBER: 6149996457
+
+ISFC CODE: KKBK0000174
+
+14. SECOND BENEFICIARY DETAILS:
+
+DIXON ELECTRO MANUFACTURING PRIVATE LIMITED
+
+PLOT NO 14, ECOTECH 8, SECTOR ECOTECH 8, GREATER NOIDA,
+
+GOUTAM BUDDHA NAGAR, UTTAR PRADESH 201312, INDIA
+
+15. THIS LC IS FULLY OR PARTIALLY TRANSFERRABLE TO 'DIXON
+ELECTRO MANUFACTURING PRIVATE LIMITED, PLOT NO 14, ECOTECH 8,
+SECTOR ECOTECH 8, GREATER NOIDA, GOUTAM BUDDHA NAGAR, UTTAR
+PRADESH 201312, INDIA' AT THE REQUEST OF FIRST BENEFICIARY.
+ADVISING BANK TO INFORM US (ISSUING BANK) VIA SWIFT MESSAGE ON
+THE SAME DAY OF LC TRANSFERRED MENTIONING TRANSFERRED LC
+AMOUNTS/DESCRIPTION OF GOODS. KOTAK MAHINDRA BANK IS ALLOWED TO
+TRANSFER THIS LC TO THE SECOND BENEFICIARY.
+
+16. SHIPPER OTHER THAN BENEFICIARY IS ALSO ACCEPTABLE.
+
+17. BENEFICIARY NAME AND ADDRESS:
+
+UST RESOURCES LLP
+
+F 207, FIRST FLOOR, NEAR F BLOCK
+
+VIKASH PURI, NEW DELHI 110018, INDIA
+
+GST NO: O7AAIFU6724B129
+
+MOB: +919811347487
+
+Charges
+
+ALL CHARGES OF BENEFICIARY BANK
+ARE TO THE ACCOUNT OF BENEFICIARY
+AND ALL OTHER CHARGES ARE TO THE
+ACCOUNT OF APPLICANT.
+
+Period for Presentation in Days
+
+Days: 21
+Narrative: /FROM SHIPMENT DATE,WITHIN LC EXPIRY
+
+Confirmation Instructions
+
+WITHOUT
+
+Instructions to the Paying/Accepting/Negotiating Bank
+
+1. UPON RECEIPT OF ORIGINAL DOCUMENTS AT OUR COUNTER IN STRICT
+CONFORMITY WITH L/C TERMS AND CONDITIONS, ON DUE DATE WE SHALL
+REMIT THE PROCEEDS AS PER NEGOTIATING BANK INSTRCUTIONS.
+COVERING LETTER FROM NEGOTIATING BANK MUST INCLUDE 11 DIGIT IFSC
+AND ACCOUNT NUMBER.
+
+2. DOCUMENTS ARE TO BE DISPATCHED TO GLOBAL IME BANK LIMITED,
+CENTRAL TRADE OPERATIONS UNIT, KAMALADI BUILDING, FIRST FLOOR,
+KATHMANDU, NEPAL IN TWO LOTS BY COURIER SERVICE ON THE SAME DAY
+OF NEGOTIATION CERTIFYING ENDORSEMENT OF THE NEGOTIATED AMOUNT
+IN THE ORIGINAL CREDIT
+
+"Advise Through' Bank - Party Identifier - Name and Address
+
+Name and Address:
+PLEASE REFER TO CLAUSE NO 13 UNDER
+FIELD 47A
+
+Sender to Receiver Information
+
+PLEASE ADVISE THIS L/C TO THE
+BENEFICIARY AFTER RECOVERING YOUR
+ADVISING CHARGES. PLEASE CONFIRM
+US LC ADVISING VIA RETURN SWIFT.
+
+Delivery overdue warning No
+
+request
+
+Network delivery notif. request No
+Payment Confirmation Status:
+Confirmed Currency:
+
+Confirmed Amount:
+
+Page 39 of 165
+
+
+--- Page 4 ---
+SHIKHAR INSURANCE COMPANY LTD.
+
+Head Office : Shikhar Biz Centre, Thapathali, P. 0. Box No, : 10692, Kathmandu, Nepal.
+Tel ; 4246101,4246102; Fax :977-1-4246103, E-mail : shikharins@mos.com.Np 4246102; Fax :977-1-4246103, E-mail : shikharins@mos.com.n
+
+MARINE DECLARATION FORM
+
+Declaration No. 76} . Open Policy No. POL/10002/MR-OT/24/25/31/00018
+
+Bank हुँ Global IME Bank Ltd [icNumber: | Number: IUDFOA126INRO145
+Insured By Him Electronics Pvt Ltd [1709010: 0१.01:2026
+
+A/C : UST Resources LLP
+
+Address
+
+Policy Sum Insured: 1, 500,000,000.00 Policy Period: 14.07.2025 to 15.07.2026
+
+Please note the following Declaration under the above Open Policy relating to goods dispatched:
+
+Marks [|| Qty | Nature of Packaging Description of Goods Vaatisi 17 । [suminsured । Insured
+
+Invoice Value (INR) 44,446,200.00
+
+5,760 = Packing |Himstar Tolerance (+ %)
+DEMPL-00251 हि
+Pcs Refrigerator Incremental(+10%) 4,444,620.00
+Invoice Date: | [out 5%) | 5%) a
+
+| ७०20
+22.12.2025 | Total Amount 48,890,820.00
+Conversion @1.6015 78,298,648.23
+Premium Amount 162,861.19
+7 (as per mention PI No,)
+
+Previous Balance 267,858,821.91
+Declared Value 78,298,648.23
+Closing Balance 189,560,173.68
+
+Risk Covered: All Risk according to Institute Cargo Clause (A)& Strike, Inland Transit Clause (A) Including TPND, WAR & SRCC Clause Risks, Institute War Clauses Cargo, Institute Strike
+Clauses Cargo, Transshipment Clauses, SRCC
+
+Shipped/Dispatched Per : Sailing on/about:
+Under B/L, AWB, R/R, LR, C/N no : Dated:
+
+india (Road)
+Kathmandu Nepal
+
+From Transit/Voyage :
+
+Declaration
+\/We hereby declare that the particulars furnished above are True and Correct.
+
+Date: | 09.01.2026 [sea i pececTRONKs | signatures र जा
+
+Name; Suman Shrestha
+
+Certification No
+We certify the goods declared above are covered under Open Policy No:
+for, Shikhar Insura¢mce Company Ltd.
+
+Newroad
+
+2026
+
+--- Page 5 ---
+PROFORMA INVOICE
+
+PI no & Date: DATE 22.12.2025
+Buyer Ord.
+
+Exporter Manufacturer
+UST RESOURCES LLP DIXON ELECTRO MANUFACTURING PRIVATE LIMITED
+F 207, FIRST FLOOR, NEAR F BLOCK PLOT NO 14, ECOTECH 8, SECTOR ECOTECH 8, GREATER NOIDA,
+VIKASH PURI, NEW DELHI 110018 IGOUTAM BUDDHA NAGAR. UTTAR PRADESH 201312
+(551 NO : O7AAIFU6724B1Z9 IGSTIN/UIN: O9AAICD3808N1Z8
+IMPORT EXPORT CODE NO: AAIFU6724B
+EMAIL : souritrana@yahoo.com
+MOB: +919811347487
+‘onsignee
+HIM ELECTRONICS PVT LTD
+NARAYANCHOUR, NAXAL
+P.O. BOX 6633, KATHMANDU, NEPAL.
+ITEL.: 4444555
+[APPLICANT PAN NO 300044627 Country of origin of Goods Country of Final Destination
+EXIM CODE NO : 3000446270134NP. INDIA NEPAL
+Email: banking@golchhagroup.com.np Terms of Delivery & payment
+Mode Port of Loading IRREVOCABLE TRANSFERABLE LC AT 15 DAYS FROM INVOICE DATE
+ROAD NOIDA, INDIA
+Port of Discharge Place of Delivery
+KATHMANDU, NEPAL VIA KATHMANDU, NEPAL VIA
+BHAIRAHAWA CUSTOMS BHAIRAHAWA CUSTOMS
+Marks & Nos. No. & Kind |Description of Goods वि UNIT AMOUNT
+/ Container of Pkg: RATE TOTAL
+No. CTNS वै INR EX-WORKS INR EX-WORKS
+
+HIMSTAR BRAND
+REFRIGERATORS (CFC FREE)
+H.S. CODE : 84182100
+
+HR-17D71BRK 7250.00
+HR-17D71SHK 7320.00
+HR-17D71BFK 7400.00
+HR-17D71RFK 7400.00
+HR-21D92BRJ 7675.00
+HR-21D92SHJ 7750.00
+HR-21D92RFIJ/DXN 7860.00
+HR-21D92BFIJ/DXN 7860.00
+HR-19P92RFK/PS 7960.00
+HR-19P92BFK/PS 7960.00
+
+Note : Alll models are with Chrome Handle
+
+1. TRANSFEREE : DIXON ELECTRO MANUFACTURING PRIVATE LIMITED
+[ADDRESS AS PER GIVEN ABOVE.
+2. TRANSFERRING BANK MAY TRANSFER THE WHOLE OR PART OF THIS LC.
+
+POE SUBMISSION :
+BUYER IS LIABLE TO PROVIDE POE COPIES (BILL OF EXPORT) WITHIN 30 DAYS FROM THE
+DATE OF INVOICE/EXPORT FROM FACTORY
+
+TOTAL QTY 5760
+‘Total Amount Chargeable [AMOUNT INR EX-WORKS, NOIDA INDIA TOTAL | INREX-worKS | 44446200.00
+(In words) FOUR CRORE FORTY FOUR LAC FORTY SIX THOUSAND AND TWO HUNDRED ONLY]
+
+Signature & Date
+BANKER DETAILS FOR UST RESOURCES LLP
+
+KOTAK MAHINDRA BANK
+PLOT NO-4, NORTH WEST AVENUE ROAD, For UST RESOURCES LLP
+
+CLUB ROAD, PUNJABI BAGH, DELHI, 110026 ASSO 5 ०
+
+RTGS/NEFT IFSC CODE : KKBK0000174
+
+BENEFICIARY: UST RESOURCES LLP Authorised Signatory
+ACCOUNT NO : 6149996457
+SWIFT : KKBKINBB AUTHORISED SIGNATORY
+
+We certify that Proforma invoice is in all respect correct and true both with regard to the price and
+description of goods referred to therein.
+
+
+
+===== DOCUMENT: Claim Form (1 Claim Form.pdf) =====
+
+--- Page 1 ---
+Shikhar Insurance Company Ltd.
+
+Head Office: Shikhar Biz Centre, Thapathali
+P.O.Box: 10692, Kathmandu, Nepal
+Tel: 4246101, 4246102, Fax: 977-1-4246103, Email: shikharins@mos.com.np
+
+=
+- Policy No. & Date x
+2. Cert, of Insu eS | prestige POL/10002/MR-OT/24/25/31/60018, dt. 16.07.2025
+No. & date ‘DN NO, 76, DT. 09.01.2026
+3. Name & Address of Claimant i
+
+4, Please tick ( ० ) to specify nature of claimant
+
+whether ; consignor [~ ] consignee [| insured [~ |
+
+5. subject matter insured
+(including gross weight & No. of packages)
+Sum Insured t
+TransitVoyage 937,820.00
+8. Consent. Note ( Name of Transport Carrier)
+
+Rly Receipi Airway Bill (Name of Air
+Carrier )/ Postern Recsipt/Bill of Lading
+(Name of Vessel) No. and Date :New prakash Transport, CN no, 27804
+(Please strike out whichever is not applicable )
+(Please enclose original Contract of Carriage)
+9. Date of arrival of Insured consignment at
+destination { In case of shipment by vessel,
+please mention General Landing Date & Date(s)
+on which goods went our of Customs’ Charge.
+
+Please state separately ) * 65.04.2026
+19. Extant condition of Packages / Goods on artival:
+1, Oate of Clearance of consignment { In case of
+
+overseas shipment, the date should be date of
+clearance from Docks/Airport) Specific reason(s)
+
+for delay in clearance, if any : 06.04.2026
+
+12," Whether examined delivery taken trom
+Carriers? If not, reasons please 2 Yes
+
+13. Description Loss’ Damage ‘ Damage
+14. Place and Date of Loss t
+15. Cause of Loss > Transit
+16. Estimate of Loss :
+17. Has Claimant given proper Notice of Loss/Damage Nor. 4,08,632.33
+
+and/ or made monetary claim against Carriers,
+Customs, Bailees and / or other Third Parties
+{Please enclose copies of correspondence
+exchanged) If not, please state reasons thereof:
+18. Estimate of Salvage available and confirmation
+that the Salvage is being carefully preserved
+
+19. REMARKS, if any
+
+Date: pM a nature & Office
+Stamp of Claimant RAE ECT LIMITED
+
+NOTE: 1. The issue of this Claim Form does to imply admission of liability on the part of the Insurers. ८
+2. Attention is drawn to the IMPORTANT NOTICE overleaf which forms an integral part of the Insurance Contract Claimants are Urged to study this
+carefully and to comply with the requirements in their own interest.
+3. lf the space is not sufficient for reply to any question, please give details on a slip to be attached to the Claim Form.
+
+
+
+===== DOCUMENT: Unknown Document (2 est of loss.pdf) =====
+
+--- Page 1 ---
+Date: 26.04.2026
+
+To,
+
+Claim Department
+
+Shikhar Insurance Company Ltd
+Kathmandu Nepal
+
+Subject: Estimation of Loss Estimation of Loss
+
+HIM ELECTRONICS PVT. LTD.
+
+पण, Naxal, Kathmandu, Nepa
+
+AGroup.com.np
+
+This is to inform you that, we have received the damage good due to truck accident.
+
+The details are as below
+
+Policy No,: POL/1 0002/MR-OT/24/25/3 1/0018
+026
+
+Declaration No. 76, dt. 09.01.21
+Invoice no, UST/EXP/2526588
+
+LC no: TUDFOA 126INRO145, dt. 09.01.2026
+
+Estimation of Loss
+Particular
+
+Amount
+
+Total Qty Damage 30 Pes
+
+Total Invoice Amount (INR)
+
+_ 937,820.00 |
+
+Total Loss हु 231,960.00; -
+Add incidental Cost 10% 23,196.00
+
+Add Tolerance 10% -
+
+Total Loss Assessed (INR) | _ _ 255,156.00 A _
+
+Total Loss Approx. 408,632.33 7
+
+Total Salvage Amount
+
+Body Damage
+
+Thanking you
+Authorized Rat
+
+PMinazgcrromes
+
+
+
+===== DOCUMENT: Policy Document (3 INR Policy.pdf) =====
+
+--- Page 1 ---
+So “7112 Insurance Company Ltd. बिजक 4. /Bill No.
+
+> New Road, Shiva Arcade, Third Floor, Basantapur NERD/10002/005820
+| Phone:01-5333191 Fax: कर बिजक
+
+Email:santosh@shikharinsurance.com Website: www.shikharinsurance.com
+4 TAX INVOICE
+
+बीमकको स्थायी लेखा नं. / insurer PAN No. [3[o] a, 7[a[s[4ja]s] |
+
+बीमितको नाम र ठेगाना HIM ELECTRONICS PVT. LTD.,KATHMANDU, NEPAL
+/ Insured Name & Address:
+
+बीमितको स्थायी लेखा नं./ Insured PAN No. [3]0|0[0][4] 4]6|2|7]_ | जारी मिति/195060 Date: 14/07/2025 (2082/03/30)
+
+अभिकर्ता/ agent;19/289/12 HS CODE __
+विवरण / Particulars रकम रु / Amount Rs.
+बीमालेख नं./ Policy No. POL/10002/MR-OT/24/25/31/00018 ओ_ वबीमाशूल्क / Premium 940,000.00
+: आतंकवबाद,हुलदंगा तथा
+सम्पृष्टि 4./Endorsement No. ak wi Sec) wa a GG. 100,000.00
+बीमाङ्क / Sum Insured Rs. 500,000,000.00 नामसारी दस्तूर/ Other/Transfer Charge 0.00
+0 अन्य/ तेश्रो पक्ष / Other/Third Party 0.00
+अवधि/ Period: देखि/ From:16/07/2025 सम्म/ To: 15/07/2026 कर लाग्ने जम्मा मुल्य / Taxable Total Amt 1,040,000.00
+अक्षरेपि Amount in Words: 43% मू.अ.कर / 13 % VAT 135,200.00
+Rupee Eleven Lakh Seventy Five Thousand Two टिकट दस्तृर / Stamp Duty 20.00
+
+Hundred Twenty Only
+
+कूल जम्मा PRAT ७0 1,175,220.00
+
+भूलचक लिनेदिने / ६. & 0. ६. For, nce Company Ltd.
+
+/ Authorised Signature
+
+GSe——- (2082/03/30)
+
+डि तका oe
+
+New Road, Shiva Arcade, Third Floor, Basantapur Receipt No. :NERD/10002/005844
+> Phone:01-5333191 Fax:
+
+' Email:santosh@shikharinsurance.com Eee asters
+
+॥ 0 i nce.
+
+Website: www.shikharinsurance.com D.0./Agent :19/289/12
+Insured Name & Address; HIM ELECTRONICS PVT. LTD.,KATHMANDU, NEPAL
+
+Received with thanks a sum of Rupees 1,175,220.00 by Cash:. 0,00 by Cheque /Deposit: 1,175,220.00
+(In words: Rupee Eleven Lakh Seventy Five Thousand Two Hundred Twenty Only ) by Credit Advice : 0.00
+Jn settlement of Bill/Policy No NERD/10002/005820 — POL/10002/MR-OT/24/25/31/00018 4८८. Adjustment: 0.00
+Guarantee No. : Guarantee Bank: 0.00
+Premium 940,000.00 Policy date 14/07/2025
+WAR &/or SRCC/RSD/MD/Terr. 100,000.00 ;
+Third Pa OT SGN
+Taxable Amount 1,040,000.00 |Cheque Bank Nepal Investment Bank Ltd., Durbarmarg (AC
+13% VAT 135,200.00 00159010004952)
+Stamp Du 20.00)" A. Bank: ,
+ERE Total 1,175,220.00
+Remarks: Total payment rs 16064677.95
+oy Insurance Company Ltd.
+Authorised Signature
+Printed By: On: 14/07/2025 At: 5:57:10PM
+
+--- Page 2 ---
+Shikhar Insurance Company
+Ltd.
+
+Shikhar Biz Centre, Fourth to Seventh Floor, Thapathali,
+
+'RecisteationiNiat itl ieee opus: MARINE |CARGO™ OPEN IPOL CVs ae etna eed No. i... MARINE CARGO - OPEN POLICY
+
+We Shikhar Insurance Company Ltd. (hereinafter called the Insurer) hereby agree in consideration of the payment to us by or on behalf of the Insured of the
+Premium specified in the schedule to insure against loss, damage, liability or expenses to the extent and in the manner herein provided.
+
+4... क को कक li ad र रमा tia eee EON UPSUOMNAING haa रि र ss
+
+Schedule of Premium
+Name and Address of Insured : Prev. Policy no. : POL/10002/MR-OT/23/24/31/00024
+
+HIM ELECTRONICS PVT. LTD., Policy No. POL/10002/MR-OT/24/25/31/00018
+
+KATHMANDU, NEPAL. Issuing Office : Shiva Arcade, Third Floor, Basantapur
+DO Code 7542
+Agent Name : Amulya Lohani
+Agent LIC No. : 19/289
+Customer Code + GUTI/10002/24/25/000119 तनु 7
+Tel/Fax/E-mail + 9841780418 info.him@golchhagroup.com.np Tel/Fax/E-mail : 01-5333191/ / santosh@shikharinsurance.com
+Period of Insurance : From 16/07/2025 To Midnight on 15/07/2026
+Bill No. : ~NERD/10002/005820 Bill Date ; 14/07/2025 Receipt No, : NERD/10002/005844
+Marine Cargo Normal Cover NPR 1,200,000.00
+ADD :Marine Cargo SRCC Cover NPR 100,000.00
+LESS :Direct Business Discount NPR 0.00
+TOTAL NPR 1,300,000.00
+LESS : Volume Discount. NPR 260,000.00
+Annual Premium NPR 1,040,000.00
+TOTAL PREMIUM NPR TOLPREMUM: So र लाल त ललल न Ta at oe oe OTS
+ADD :Value Added Tax NPR Pa 135,200:00
+ADD :Stamp Duty NPR ga)
+TOTAL AMOUNT NPR. 1,175,220,00
+Total Premium In Words : Eleven Lakh Seventy Five Thousand Two Hundred Twenty Only nl
+Total Sum Insured In Words : Fifty Crore Rupees Only पु जा
+RISK DETAILS ey
+1. Voyage From : THIRD COUNTRY/ ANY PLACE OF INDIA
+To : ANY PLACE IN NEPAL ( WAREHOUSE)
+Mode of Transit : AIR/RAIL/ROAD
+BL/CN/AWB/RR No. ८
+Limit Per transit : 200,000,000.00 Limit Per location:
+Terms of Sale :
+Basis of Valuation : Invoice Value + 0.00 %(Tolerance) + 0.00 %(Incidental Cost) + 0.00%(Duty)
+Amount in Foriegn Curr «NPR : 500,000,000.00
+Subject Matter Insured
+S.No. Commodity Currency Sum Insured L/C No L/C Date Invoice No Invoice Date
+1 ALL KINDS OF ELECTRONIC NPR 500,000,000.00
+AND ELECTRICAL GOODS
+
+Excess/Deductible :
+*0.5% EXCESS PER CONSIGNMENT/CONVEYANCE
+
+SPECIAL CONDITION AND WARRANTIES
+Term of Insurance : Subject to the following clauses listed and attached hereto and printed warranties below
+Clauses
+
+1 Institute Cargo Clauses (Air)
+
+2 Inland Transit (Rail or Road) Clauses A
+
+3 Institute War Clauses (Air Cargo)
+
+4 Institute Strikes Clauses (Air Cargo)
+
+5 Strikes, Riots and Civil Commotions Clauses
+
+6 Theft, Pilferage and Non Delivery Clause
+
+7 Institute Replacement Clause
+
+8 Duty Insurance Clause
+
+9 Termination of Transit Clause (Terrorism)
+
+10 Institute Radioactive Contamination Exclusion Clauses
+11 Additional Schedule of Declaration Policy
+
+Claim Intimation & Survey :
+Surveyor Name: In the event of loss or damage which may involve in a claim under this insurance, immediate notice thereof and application for survey
+should be given to the company.
+Subject to Communicable Disease Exclusion Clause.
+INVOICE VALUE + TOLERANCE COST + INCIDENTAL COST+ DUTY (To be declared on Declaration)
+_ * The above premiumils changed/asie deposit premium = =e Ss Serre Sn ote ae ae eee ee ee ee
+Claim Payable at / by: THE COMPANY'S HEAD OFFICE
+
+_The Attached &/Or Printed Overleaf Clauses and endorsement from the part of the Policy, 0 Attached &/Or Printed Overleaf Clauses and endorsement from the part of the Policy.
+
+In witness whereof the undersigned being duly authorised by the Directors of the Company and on behalf of the Company
+has hereunto set his hand at on 14/07/2025
+
+Insurance Policy shall be effective only after payment of premium.
+
+For and
+
+Anshu Thapa - Shikhar Insyra
+Branch Chiet /|
+
+New Road Branch
+
+Pein crea rah lind
+
+--- Page 3 ---
+Schedule attaching to & forming part of Policy No: POL/10002/MR-OT/24/25/31/00018
+
+DUTY INSURANCE CLAUSE
+
+This insurance is on “Increased Value” of cargo by reason of payment of customs Duty at the border
+customs or place of destination and is subject to the same clauses and conditions as the insurance on cargo
+and to pay the same percentage of “Duty” payable (excluding charges and expenses) as may be paid
+thereon, but excluding claims in respect of:
+
+(b) Total Loss of whole or part of cargo prior to the “Duty” becoming payable.
+
+(c) General Average, Salvage and/or Salvage Charges arising from any casually occurring prior to
+the “Duty” becoming payable.
+
+In ascertaining the amount of the claim recoverable hereunder, credit shall be given for.any rebates or
+refund of “Duty” which may become allowable.
+
+This insurance shall not be valid if effected after the arrival of the vessel/aircraft/conveyance at the
+destination port/place. »
+
+Warranted that:
+
+1. The insured is the Consignee or is the actual user who has purchased goods from recognized
+Export House/Channelizing Agency.
+
+2. This Policy is not assignable.
+
+No claim shall be paid for “Duty” until the claim under the CIF Value Insurance is payable.
+This is not a valued policy. Claims under this policy are payable on the basis of actual “Duty”
+paid or on the basis of the related portion Sum Insured, whichever is less.
+
+5. Inthe event of a claim under this policy, immediate notice of loss shall be given to the Insurer
+and a reasonable opportunity give to the Insurer to survey and assess the loss. The Insured shall
+co-operate with the Insurer and take all reasonable measures to minimize or prevent a loss. The
+Insured shall also lodge a claim with the Customs Authorities within the stipulated time for
+refund of duty where admissible, and with the Carriers or others for recovery of the “Duty” paid
+in respect of such damaged or lost Cargo and any recovery relating to the “Duty” paid shall be
+credited to the Insurer.
+
+Signed for and on behalf of the Shikhar Insurance Co. Ltd.
+
+Authorized Signatory
+
+signation: “3 oe
+1010 12
+
+New Road Branch
+
+--- Page 4 ---
+ADDITIONAL SCHEDULE OF DECLARATION POLICY
+
+Attached and forming part of Policy No: - POL/10002/MR-OT/24/25/31/00018
+Insured name: M/S. HIM ELECTRONICS PVT. LTD.
+
+It is a condition of this Declaration Policy that each and every consignment should be
+declared by the Insured without exception, to the Shikhar Insurance Co. Ltd.,
+Newroad, Kathmandu immediately after the issue of the Air/Freight/Railways/Lorry
+Receipt and full particulars furnished as soon as practicable, otherwise no risk to
+attach hereunder.
+
+be
+
+The Insurer shall have the privilege, at any time during business hours, to
+inspect the records of the Insured in respect of sending coming within the
+terms of the declaration Policy.
+
+Sum Insured of this Policy is. Rs.500,000,000.00 but the amount declarable
+may not exceed the sum of Rs.200,000,000.00 in respect of any one Vessel,
+Aircraft or Conveyance.
+
+In case of loss/and or damage (before loading into the Aircraft in the case of
+Air Freight sending) to the insured interest by a peril covered hereunder in any
+one locality, the Insurer, notwithstanding anything to the contrary contained in
+this contract shall not be liable in respect of any one accident or series of
+accidents arising out of the same event for more than his proportion of an
+amount up to, but not exceeding the sum of Rupees Rs.200,000,000.00 :
+
+It is hereby declared and agreed that this Declaration Policy shall remain in force
+for twelve calendar months from the date hereof 16.07.2025 (unless previously
+exhausted by declaration or cancelled by notice) and is subject to cancellation at
+any time by either side by giving seven days' notice in writing.
+
+Signed for and on behalf of the Shikhar Insurance Co. Ltd.
+
+Designation:
+
+Anshu Thapa
+Branch Chief
+New Road Branch
+
+
+===== DOCUMENT: Unknown Document (DAMAGE RECEIVED FROM INDIAN VEHICLE LIST (1).pdf) =====
+
+--- Page 1 ---
+Serial No, for Damage Goods
+
+HR-21D92BRJ) HR-19P92RFK/PS HR-19P92BFK/PS
+21D92BRC1810 19P92RFC0483 19P92BFC0601
+21D92BRC1370 19P92RFC0481 19P92BFC0493
+21D92BRC1999 19P92RFC0712
+
+21D92BRC1349 19P92RFC0536
+
+21D92BRC1917
+
+21D92BRC1217
+
+21D92BRC1344
+
+21D92BRC1362
+
+21D92BRC2023
+
+21D92BRC1968
+
+21D92BRC2014
+
+21D92BRC1032
+
+21D92BRC1358
+
+21D92BRC1889
+
+21D92BRC1865
+
+21D92BRC1952
+
+21D92BRC1910
+
+21D92BRC2024
+
+21D92BRC1948
+
+21D92BRC1037
+
+21D92BRC1967
+
+21D92BRC1912
+
+21D92BRC1862
+
+21D92BRC1950
+
+
+===== DOCUMENT: Unknown Document (INR 76 lc 0145 (1).pdf) =====
+
+--- Page 1 ---
+SHIKHAR INSURANCE COMPANY LTD.
+
+Head Office : Shikhar Biz Centre, Thapathali, P. 0. Box No, : 10692, Kathmandu, Nepal.
+Tel ; 4246101,4246102; Fax :977-1-4246103, E-mail : shikharins@mos.com.Np 4246102; Fax :977-1-4246103, E-mail : shikharins@mos.com.n
+
+MARINE DECLARATION FORM
+
+Declaration No. 76} . Open Policy No. POL/10002/MR-OT/24/25/31/00018
+
+Bank हुँ Global IME Bank Ltd [icNumber: | Number: IUDFOA126INRO145
+Insured By Him Electronics Pvt Ltd [1709010: 0१.01:2026
+
+A/C : UST Resources LLP
+
+Address
+
+Policy Sum Insured: 1, 500,000,000.00 Policy Period: 14.07.2025 to 15.07.2026
+
+Please note the following Declaration under the above Open Policy relating to goods dispatched:
+
+Marks [|| Qty | Nature of Packaging Description of Goods Vaatisi 17 । [suminsured । Insured
+
+Invoice Value (INR) 44,446,200.00
+
+5,760 = Packing |Himstar Tolerance (+ %)
+DEMPL-00251 हि
+Pcs Refrigerator Incremental(+10%) 4,444,620.00
+Invoice Date: | [out 5%) | 5%) a
+
+| ७०20
+22.12.2025 | Total Amount 48,890,820.00
+Conversion @1.6015 78,298,648.23
+Premium Amount 162,861.19
+7 (as per mention PI No,)
+
+Previous Balance 267,858,821.91
+Declared Value 78,298,648.23
+Closing Balance 189,560,173.68
+
+Risk Covered: All Risk according to Institute Cargo Clause (A)& Strike, Inland Transit Clause (A) Including TPND, WAR & SRCC Clause Risks, Institute War Clauses Cargo, Institute Strike
+Clauses Cargo, Transshipment Clauses, SRCC
+
+Shipped/Dispatched Per : Sailing on/about:
+Under B/L, AWB, R/R, LR, C/N no : Dated:
+
+india (Road)
+Kathmandu Nepal
+
+From Transit/Voyage :
+
+Declaration
+\/We hereby declare that the particulars furnished above are True and Correct.
+
+Date: | 09.01.2026 [sea i pececTRONKs | signatures र जा
+
+Name; Suman Shrestha
+
+Certification No
+We certify the goods declared above are covered under Open Policy No:
+for, Shikhar Insura¢mce Company Ltd.
+
+Newroad
+
+2026
+
+
+===== DOCUMENT: Policy Document (INR Policy (2).pdf) =====
+
+--- Page 1 ---
+So “7112 Insurance Company Ltd. बिजक 4. /Bill No.
+
+> New Road, Shiva Arcade, Third Floor, Basantapur NERD/10002/005820
+| Phone:01-5333191 Fax: कर बिजक
+
+Email:santosh@shikharinsurance.com Website: www.shikharinsurance.com
+4 TAX INVOICE
+
+बीमकको स्थायी लेखा नं. / insurer PAN No. [3[o] a, 7[a[s[4ja]s] |
+
+बीमितको नाम र ठेगाना HIM ELECTRONICS PVT. LTD.,KATHMANDU, NEPAL
+/ Insured Name & Address:
+
+बीमितको स्थायी लेखा नं./ Insured PAN No. [3]0|0[0][4] 4]6|2|7]_ | जारी मिति/195060 Date: 14/07/2025 (2082/03/30)
+
+अभिकर्ता/ agent;19/289/12 HS CODE __
+विवरण / Particulars रकम रु / Amount Rs.
+बीमालेख नं./ Policy No. POL/10002/MR-OT/24/25/31/00018 ओ_ वबीमाशूल्क / Premium 940,000.00
+: आतंकवबाद,हुलदंगा तथा
+सम्पृष्टि 4./Endorsement No. ak wi Sec) wa a GG. 100,000.00
+बीमाङ्क / Sum Insured Rs. 500,000,000.00 नामसारी दस्तूर/ Other/Transfer Charge 0.00
+0 अन्य/ तेश्रो पक्ष / Other/Third Party 0.00
+अवधि/ Period: देखि/ From:16/07/2025 सम्म/ To: 15/07/2026 कर लाग्ने जम्मा मुल्य / Taxable Total Amt 1,040,000.00
+अक्षरेपि Amount in Words: 43% मू.अ.कर / 13 % VAT 135,200.00
+Rupee Eleven Lakh Seventy Five Thousand Two टिकट दस्तृर / Stamp Duty 20.00
+
+Hundred Twenty Only
+
+कूल जम्मा PRAT ७0 1,175,220.00
+
+भूलचक लिनेदिने / ६. & 0. ६. For, nce Company Ltd.
+
+/ Authorised Signature
+
+GSe——- (2082/03/30)
+
+डि तका oe
+
+New Road, Shiva Arcade, Third Floor, Basantapur Receipt No. :NERD/10002/005844
+> Phone:01-5333191 Fax:
+
+' Email:santosh@shikharinsurance.com Eee asters
+
+॥ 0 i nce.
+
+Website: www.shikharinsurance.com D.0./Agent :19/289/12
+Insured Name & Address; HIM ELECTRONICS PVT. LTD.,KATHMANDU, NEPAL
+
+Received with thanks a sum of Rupees 1,175,220.00 by Cash:. 0,00 by Cheque /Deposit: 1,175,220.00
+(In words: Rupee Eleven Lakh Seventy Five Thousand Two Hundred Twenty Only ) by Credit Advice : 0.00
+Jn settlement of Bill/Policy No NERD/10002/005820 — POL/10002/MR-OT/24/25/31/00018 4८८. Adjustment: 0.00
+Guarantee No. : Guarantee Bank: 0.00
+Premium 940,000.00 Policy date 14/07/2025
+WAR &/or SRCC/RSD/MD/Terr. 100,000.00 ;
+Third Pa OT SGN
+Taxable Amount 1,040,000.00 |Cheque Bank Nepal Investment Bank Ltd., Durbarmarg (AC
+13% VAT 135,200.00 00159010004952)
+Stamp Du 20.00)" A. Bank: ,
+ERE Total 1,175,220.00
+Remarks: Total payment rs 16064677.95
+oy Insurance Company Ltd.
+Authorised Signature
+Printed By: On: 14/07/2025 At: 5:57:10PM
+
+--- Page 2 ---
+Shikhar Insurance Company
+Ltd.
+
+Shikhar Biz Centre, Fourth to Seventh Floor, Thapathali,
+
+'RecisteationiNiat itl ieee opus: MARINE |CARGO™ OPEN IPOL CVs ae etna eed No. i... MARINE CARGO - OPEN POLICY
+
+We Shikhar Insurance Company Ltd. (hereinafter called the Insurer) hereby agree in consideration of the payment to us by or on behalf of the Insured of the
+Premium specified in the schedule to insure against loss, damage, liability or expenses to the extent and in the manner herein provided.
+
+4... क को कक li ad र रमा tia eee EON UPSUOMNAING haa रि र ss
+
+Schedule of Premium
+Name and Address of Insured : Prev. Policy no. : POL/10002/MR-OT/23/24/31/00024
+
+HIM ELECTRONICS PVT. LTD., Policy No. POL/10002/MR-OT/24/25/31/00018
+
+KATHMANDU, NEPAL. Issuing Office : Shiva Arcade, Third Floor, Basantapur
+DO Code 7542
+Agent Name : Amulya Lohani
+Agent LIC No. : 19/289
+Customer Code + GUTI/10002/24/25/000119 तनु 7
+Tel/Fax/E-mail + 9841780418 info.him@golchhagroup.com.np Tel/Fax/E-mail : 01-5333191/ / santosh@shikharinsurance.com
+Period of Insurance : From 16/07/2025 To Midnight on 15/07/2026
+Bill No. : ~NERD/10002/005820 Bill Date ; 14/07/2025 Receipt No, : NERD/10002/005844
+Marine Cargo Normal Cover NPR 1,200,000.00
+ADD :Marine Cargo SRCC Cover NPR 100,000.00
+LESS :Direct Business Discount NPR 0.00
+TOTAL NPR 1,300,000.00
+LESS : Volume Discount. NPR 260,000.00
+Annual Premium NPR 1,040,000.00
+TOTAL PREMIUM NPR TOLPREMUM: So र लाल त ललल न Ta at oe oe OTS
+ADD :Value Added Tax NPR Pa 135,200:00
+ADD :Stamp Duty NPR ga)
+TOTAL AMOUNT NPR. 1,175,220,00
+Total Premium In Words : Eleven Lakh Seventy Five Thousand Two Hundred Twenty Only nl
+Total Sum Insured In Words : Fifty Crore Rupees Only पु जा
+RISK DETAILS ey
+1. Voyage From : THIRD COUNTRY/ ANY PLACE OF INDIA
+To : ANY PLACE IN NEPAL ( WAREHOUSE)
+Mode of Transit : AIR/RAIL/ROAD
+BL/CN/AWB/RR No. ८
+Limit Per transit : 200,000,000.00 Limit Per location:
+Terms of Sale :
+Basis of Valuation : Invoice Value + 0.00 %(Tolerance) + 0.00 %(Incidental Cost) + 0.00%(Duty)
+Amount in Foriegn Curr «NPR : 500,000,000.00
+Subject Matter Insured
+S.No. Commodity Currency Sum Insured L/C No L/C Date Invoice No Invoice Date
+1 ALL KINDS OF ELECTRONIC NPR 500,000,000.00
+AND ELECTRICAL GOODS
+
+Excess/Deductible :
+*0.5% EXCESS PER CONSIGNMENT/CONVEYANCE
+
+SPECIAL CONDITION AND WARRANTIES
+Term of Insurance : Subject to the following clauses listed and attached hereto and printed warranties below
+Clauses
+
+1 Institute Cargo Clauses (Air)
+
+2 Inland Transit (Rail or Road) Clauses A
+
+3 Institute War Clauses (Air Cargo)
+
+4 Institute Strikes Clauses (Air Cargo)
+
+5 Strikes, Riots and Civil Commotions Clauses
+
+6 Theft, Pilferage and Non Delivery Clause
+
+7 Institute Replacement Clause
+
+8 Duty Insurance Clause
+
+9 Termination of Transit Clause (Terrorism)
+
+10 Institute Radioactive Contamination Exclusion Clauses
+11 Additional Schedule of Declaration Policy
+
+Claim Intimation & Survey :
+Surveyor Name: In the event of loss or damage which may involve in a claim under this insurance, immediate notice thereof and application for survey
+should be given to the company.
+Subject to Communicable Disease Exclusion Clause.
+INVOICE VALUE + TOLERANCE COST + INCIDENTAL COST+ DUTY (To be declared on Declaration)
+_ * The above premiumils changed/asie deposit premium = =e Ss Serre Sn ote ae ae eee ee ee ee
+Claim Payable at / by: THE COMPANY'S HEAD OFFICE
+
+_The Attached &/Or Printed Overleaf Clauses and endorsement from the part of the Policy, 0 Attached &/Or Printed Overleaf Clauses and endorsement from the part of the Policy.
+
+In witness whereof the undersigned being duly authorised by the Directors of the Company and on behalf of the Company
+has hereunto set his hand at on 14/07/2025
+
+Insurance Policy shall be effective only after payment of premium.
+
+For and
+
+Anshu Thapa - Shikhar Insyra
+Branch Chiet /|
+
+New Road Branch
+
+Pein crea rah lind
+
+--- Page 3 ---
+Schedule attaching to & forming part of Policy No: POL/10002/MR-OT/24/25/31/00018
+
+DUTY INSURANCE CLAUSE
+
+This insurance is on “Increased Value” of cargo by reason of payment of customs Duty at the border
+customs or place of destination and is subject to the same clauses and conditions as the insurance on cargo
+and to pay the same percentage of “Duty” payable (excluding charges and expenses) as may be paid
+thereon, but excluding claims in respect of:
+
+(b) Total Loss of whole or part of cargo prior to the “Duty” becoming payable.
+
+(c) General Average, Salvage and/or Salvage Charges arising from any casually occurring prior to
+the “Duty” becoming payable.
+
+In ascertaining the amount of the claim recoverable hereunder, credit shall be given for.any rebates or
+refund of “Duty” which may become allowable.
+
+This insurance shall not be valid if effected after the arrival of the vessel/aircraft/conveyance at the
+destination port/place. »
+
+Warranted that:
+
+1. The insured is the Consignee or is the actual user who has purchased goods from recognized
+Export House/Channelizing Agency.
+
+2. This Policy is not assignable.
+
+No claim shall be paid for “Duty” until the claim under the CIF Value Insurance is payable.
+This is not a valued policy. Claims under this policy are payable on the basis of actual “Duty”
+paid or on the basis of the related portion Sum Insured, whichever is less.
+
+5. Inthe event of a claim under this policy, immediate notice of loss shall be given to the Insurer
+and a reasonable opportunity give to the Insurer to survey and assess the loss. The Insured shall
+co-operate with the Insurer and take all reasonable measures to minimize or prevent a loss. The
+Insured shall also lodge a claim with the Customs Authorities within the stipulated time for
+refund of duty where admissible, and with the Carriers or others for recovery of the “Duty” paid
+in respect of such damaged or lost Cargo and any recovery relating to the “Duty” paid shall be
+credited to the Insurer.
+
+Signed for and on behalf of the Shikhar Insurance Co. Ltd.
+
+Authorized Signatory
+
+signation: “3 oe
+1010 12
+
+New Road Branch
+
+--- Page 4 ---
+ADDITIONAL SCHEDULE OF DECLARATION POLICY
+
+Attached and forming part of Policy No: - POL/10002/MR-OT/24/25/31/00018
+Insured name: M/S. HIM ELECTRONICS PVT. LTD.
+
+It is a condition of this Declaration Policy that each and every consignment should be
+declared by the Insured without exception, to the Shikhar Insurance Co. Ltd.,
+Newroad, Kathmandu immediately after the issue of the Air/Freight/Railways/Lorry
+Receipt and full particulars furnished as soon as practicable, otherwise no risk to
+attach hereunder.
+
+be
+
+The Insurer shall have the privilege, at any time during business hours, to
+inspect the records of the Insured in respect of sending coming within the
+terms of the declaration Policy.
+
+Sum Insured of this Policy is. Rs.500,000,000.00 but the amount declarable
+may not exceed the sum of Rs.200,000,000.00 in respect of any one Vessel,
+Aircraft or Conveyance.
+
+In case of loss/and or damage (before loading into the Aircraft in the case of
+Air Freight sending) to the insured interest by a peril covered hereunder in any
+one locality, the Insurer, notwithstanding anything to the contrary contained in
+this contract shall not be liable in respect of any one accident or series of
+accidents arising out of the same event for more than his proportion of an
+amount up to, but not exceeding the sum of Rupees Rs.200,000,000.00 :
+
+It is hereby declared and agreed that this Declaration Policy shall remain in force
+for twelve calendar months from the date hereof 16.07.2025 (unless previously
+exhausted by declaration or cancelled by notice) and is subject to cancellation at
+any time by either side by giving seven days' notice in writing.
+
+Signed for and on behalf of the Shikhar Insurance Co. Ltd.
+
+Designation:
+
+Anshu Thapa
+Branch Chief
+New Road Branch
+
+
+===== DOCUMENT: Unknown Document (letter from trp.pdf) =====
+
+--- Page 1 ---
+GSTIN : O6AHRPP4614R12]
+Or Cell. : 9313266332
+‘ : 9811357752
+
+NEW PRAKASH ROADWays
+
+"SHOP NO. S0AB, NEAR NEELKAMAL FACTORY SSS;OE=S == आजा NO. 30AB, NEAR NEELKAMAL FACT
+३ 7 ORY, SECTOR-58, FARI
+E-mail : — —=emictintreditimalicom,npr.invinebie@yshoocom 1 opr_invincible@yahoamen
+
+Date:- 07.04.2026
+
+To,
+
+Him Electronics Pvt Ltd
+Kathmandu
+
+Nepal
+
+Subject: RE: Claim against material Damage in transit sent via Road under CN No, 27804 RE: Claim against material Damage in transit sent via Road under CN No, 27804
+
+dt 29.03.2026
+
+We would like to inform you that, the goods carried under Invoice no, . UST/EXP/2526588 dt.
+29.03.2026 from Noida India 0 Bhairahawa Nepal. The said consignment is damaged in transit.
+As we have already inform you to make the necessary insurance for any damage and loss without
+bearing any risk from our side.
+
+Please make the claim at insurance company as will not take responsibility for damage of goods.
+We will provide any required help if needed.
+
+Thanking you
+
+Nae S le
+ignatory
+
+
+
+===== DOCUMENT: Unknown Document (letter to trp.pdf) =====
+
+--- Page 1 ---
+Hi ELECTRONICS PVT. LTD.
+Narayanchaur, Naxal, Kathmandu, Nepel
+T Ol- 5909989
+
+E info.him@gaichhagroup.cam.np
+www.gelchhagraup.com.np
+
+GOLCHHA GROUP
+100 YEARS OF TRUST
+
+Date:- 07.04.2026
+
+Ref no, 2082-83/TRPC/05
+
+To,
+
+New Prakash Raodways
+
+Shop No, 30AB, Near Neelkamal
+
+Factory Sector-58, Faridabad
+India
+
+Subject: Claim against material Damage in transit sent via Road under CN No, 27804 dt Claim against material Damage in transit sent via Road under CN No 27804 dt
+29.03.2026
+
+We would like to bring to your kind attention that we had received the damage goods, which
+was loaded from Noida India against Invoice No. UST/EXP/2526588 dt. 29.03.2026. The said
+consignment is damaged in transit Amounting Npr.4,08,632.33 CINR.2,55,156.00)
+
+Hence, we request you to kindly refund Npr. 4,08632.33 . to us as compensation because the said
+goods is damage in transit.
+
+Looking forward to seek your co-operation.
+
+Thanking you
+
+nt Signatory
+
+ONICS
+हनन निडि
+
+
+===== DOCUMENT: Unknown Document (UST INV. NO. 588 - HIMSTAR REF DT 29.03.2026.pdf) =====
+
+--- Page 1 ---
+COMMERCIAL INVOICE
+(SUPPLY MEANT FOR EXPORT UNDER LUT WITHOUT PAY!
+INVOICE NO. दु
+
+UST RESOURCES LLP UST/EXP/2526588 DATE: 29-03-2026
+
+F 207, FIRST FLOOR,NEAR F BLOCK -L/C NO. & DATE
+
+(VIKASH PURI, NEW DELHI 110018, INDIA IL/C NO. IUDFOA126INRO145 DT. 09.01.2026
+
+IMPORT EXPORT CODE NO: AAIFU6724B IBANK : GLOBAL IME BANK LIMITED
+
+GST NO: 07AAIFU6724B1Z9, TEL: +91 9811347487 ICENTRAL TRADE OPERATIONS UNIT,
+
+EMAIL: SOURITRANA(AT)YAHOO.COM IKAMALADI BUILDING, FIRST FLOOR, KATHMANDU, NEPAL
+
+CONSIGNEE:- BUYER OTHER THAN CONSIGNEE:.-
+
+TO NOTIFY APPLICANT
+
+GLOBAL IME BANK LIMITED HIM ELECTRONICS PVT. LTD
+
+CENTRAL TRADE OPERATIONS UNIT, INARAYANCHAUR NAXAL, P.O.BOX NO.6633
+
+KAMALADI BUILDING, FIRST FLOOR, KATHMANDU, NEPAL KATHMANDU, NEPAL, PAN 300044627,
+EXIM CODE 3000446270134NP, TEL: +977-1-4444555,
+EMAIL: BANKING (AT) GOLCHHAGROUP.COM.NP
+
+TERMS OF DELIVERY & PAYMENTS:
+EX-WORKS NOIDA, INDIA (INCOTERMS 2020)
+
+PLACE OF DELIVERY:- KATHMANDU, NEPAL VIA BHAIRAHAWA DRAFT AT 15 DAYS FROM COMMERCIAL INVOICE DATE AGAINST L/C
+CUSTOMS OFFICE, BHAIRAHAWA, NEPAL INO. IUDFOA126INRO145 DT. 09.01.2026
+FINAL DESTINATION:- KATHMANDU, NEPAL
+
+RATE/NO.
+
+MARKS & QUANTITY E AMOUNT INR
+NOS./CONTR NO. NO & KIND OF PKGS. DESCRIPTION OF GOODS IN NOS. Rex EX-WORKS
+
+ENT OF IGST)
+
+[AS PER PROFORMA INVOICE NO.DEMPL-00251
+DATED: 22-12-2025
+CTN NO. CTNS HIMSTAR BRAND REFRIGERATORS (CFC FREE)
+1-48 48 HR-21D92BRJ 7,675.00 3,68,400.00
+
+49-58 10 HR-21D92SHJ 7,750.00 77,500.00
+59-72 14 IHR-21D92RFJ/DXN 7,860.00 1,10,040.00
+73-74 HR-21D92BFJ/DXN 7,860.00 15,720.00
+75-96 HHR-19P92RFK/PS 7,960.00 1,75,120.00
+
+97-120 HHR-19P92BFK/PS 7,960.00 1,91,040.00
+
+GOODS ARE IN TRANSIT TO FINAL DESTINATION IN
+KATHMANDU NEPAL VIA BHAIRAHAWA CUSTOMS OFFICE,
+
+BHAIRAHAWA, NEPAL
+।
+(LUT) Application Reference Number (ARN) 400703250244468 DT. 22.03.2025
+
+KOTAK MAHINDRA BANK AD CODE : 0181111
+COUNTRY OF ORIGIN : INDIA
+
+‘Supplier :
+
+DIXON ELECTRO MANUFACTURING PRIVATE LIMITED
+GREATER NOIDA, UTTAR PRADESH 201310.
+|GSTIN/UIN: O9AAICD3808N1Z8
+
+TAX INVOICE NO: F22546510626 DATED 29.03.2026
+
+CUSTOMS ENTRY POINT IN NEPAL AS:
+BHAIRAHAWA CUSTOMS OFFICE,
+BHAIRAHAWA, NEPAL
+
+| उ उ |] rotate cons orma, mora ncorenas 020) | 120 | । 997,820.00
+
+INVOICE AMOUNT IN WORDS:
+TOTAL INR EX-WORKS NOIDA, INDIA (INCOTERMS 2020): NINE LAC THIRTY SEVEN THOUSAND EIGHT HUNDRED AND TWENTY ONLY.
+
+TRANSPORTER: _ NEW PRAKASH ROADWAYS
+LR NO 27804 DATE 29-03-2026
+
+HR38Y7248
+HARMONIC CODE (H.S. CODE): 8418.21.00 FOR UST RESOURCES LLP
+GST INV NO UST/EXP/2526588 DATE 29-03-2026 For UST RESOURCES LLP
+
+IMPORT EXPORT CODE NO: AAIFU6724B Asse 85 ५
+
+Declaration:
+
+Authori i
+‘We declare that this invoice shows the actual price of the goods AUTHORISED grised Signatory
+
+described and that all particulars are true and correct.
+
+--- Page 2 ---
+PACKING LIST/WEIGHT LIST
+[SHIPPER/EXPORTER:- INVOICE NO.é& DATE:-
+UST RESOURCES LLP USTIEXP/2526588 29-03-2026
+F 207, FIRST FLOOR,NEAR F BLOCK -L/C NO. & DATE
+VIKASH PURI, NEW DELHI 110018, INDIA L/C NO. IUDFOA126INRO145 DT. 09.01.2026
+IMPORT EXPORT CODE NO: AAIFU6724B BANK : GLOBAL IME BANK LIMITED
+GST NO: 07AAIFU6724B1Z9, TEL: +91 9811347487 CENTRAL TRADE OPERATIONS UNIT,
+EMAIL: SOURITRANA(AT)YAHOO.COM KAMALADI BUILDING, FIRST FLOOR, KATHMANDU, NEPAL
+CONSIGNEE:- BUYER OTHER THAN CONSIGNEE:-
+TO. NOTIFY APPLICANT
+GLOBAL IME BANK LIMITED HIM ELECTRONICS PVT. LTD
+CENTRAL TRADE OPERATIONS UNIT, NARAYANCHAUR NAXAL, P.O.BOX NO.6633
+KAMALADI BUILDING, FIRST FLOOR, KATHMANDU, NEPAL KATHMANDU, NEPAL, PAN 300044627,
+EXIM CODE 3000446270134NP, TEL: +977-1-4444555,
+EMAIL: BANKING (AT) GOLCHHAGROUP.COM.NP
+PRE CARRIAGE BY:-ROAD COUNTRY OF ORIGIN OF GOODS:- INDIA
+PLACE OF PORT BY PRE-CARRIER:- COUNTRY OF FINAL DESTINATION:- NEPAL
+VESSEL NO.:- TERMS OF DELIVERY & PAYMENTS:
+DISPATCH FROM:- NOIDA, INDIA EX-WORKS NOIDA, INDIA (INCOTERMS 2020)
+PLACE OF DELIVERY:- KATHMANDU, NEPAL VIA BHAIRAHAWA DRAFT AT 15 DAYS FROM COMMERCIAL INVOICE DATE AGAINST
+CUSTOMS OFFICE, BHAIRAHAWA, NEPAL L/C NO. IUDFOA126INRO145 DT. 09.01.2026
+FINAL DESTINATION:- KATHMANDU, NEPAL
+
+MARKS & NO & KIND OF NET WIGHT GROSS WEIGHT
+DESCRIPTION OF GOODS 5
+NOS./CNTR Ni PKGS. | __sermonorccons | omnes) om (505) 7505) |
+
+AS PER PROFORMA INVOICE NO.DEMPL-
+(00251 DATED: 22-12-2025
+
+CTN NO. HIMSTAR BRAND REFRIGERATORS (CFC FREE)
+
+1-48 HR-21D92BRJ 48 1,564.80 1,776.00
+
+HR-21D92SHJ 10 326.00 370.00
+HR-21D92RFJ/DXN 14 456.40 518.00
+HR-21D92BFJ/DXN 65.20 74.00
+
+HR-19P92RFK/PS 717.20 814.00
+
+HR-19P92BFK/PS 782.40 888.00
+
+GOODS ARE IN TRANSIT TO FINAL DESTINATION IN
+
+KATHMANDU NEPAL VIA BHAIRAHAWA CUSTOMS OFFICE,
+
+BHAIRAHAWA, NEPAL
+
+(LUT) Application Reference Number (ARN) AD0703250244468 DT. 22.03.2025
+KOTAK MAHINDRA BANK AD CODE : 0181111
+
+COUNTRY OF ORIGIN : INDIA
+
+CUSTOMS ENTRY POINT IN NEPAL AS:
+
+BHAIRAHAWA CUSTOMS OFFICE,
+
+BHAIRAHAWA, NEPAL
+
+TRANSPORTER: _NEW PRAKASH ROADWAYS
+
+LR NO 27804 29-03-2026
+TRUCK NO: _ HR38Y7248
+
+HARMONIC CODE (H.S. CODE): 8418.21.00
+
+GSTINVNO _UST/EXP/2526588 29-03-2026 FOR UST RESOURCES LLP
+IMPORT EXPORT CODE NO: AAIFU6724B For UST RESOURCES LLP
+
+Declaration: Asus $5 .
+
+‘We declare that this invoice shows the actual price of the goods AUTHORAMHH OFIGEATSIQHatory
+described and that all particulars are true and correct.
+
+
+--- Page 3 ---
+CERTIFICATE OF ORIGIN
+
+AS PER LC CLAUSE 46A
+INVOICE NO.& DATE:-
+UST RESOURCES LLP IUST/EXP/2526588
+[F 207, FIRST FLOOR,NEAR F BLOCK L/C NO. & DATE
+
+VIKASH PURI, NEW DELHI 110018, INDIA 1./0 NO. IUDFOA126INRO145 DT. 09.01.2026
+
+IMPORT EXPORT CODE NO: AAIFU6724B IBANK : GLOBAL IME BANK LIMITED
+
+GST NO: O7AAIFU6724B1Z9, TEL: +91 9811347487 (CENTRAL TRADE OPERATIONS UNIT,
+
+EMAIL: SOURITRANA(AT) YAHOO.COM /KAMALADI BUILDING, FIRST FLOOR, KATHMANDU, NEPAL
+|\CONSIGNEE:- IBUYER OTHER THAN CONSIGNEE:-
+
+TO NOTIFY APPLICANT
+
+(GLOBAL IME BANK LIMITED HIM ELECTRONICS PVT. LTD
+
+(CENTRAL TRADE OPERATIONS UNIT, INARAYANCHAUR NAXAL, P.O.BOX NO.6633
+
+/KAMALADI BUILDING, FIRST FLOOR, KATHMANDU, NEPAL /KATHMANDU, NEPAL, PAN 300044627,
+
+EXIM CODE 3000446270134NP, TEL: +977-1-4444555,
+EMAIL: BANKING (AT) GOLCHHAGROUP.COM.NP
+COUNTRY OF ORIGIN OF GOODS:- INDIA
+(COUNTRY OF FINAL DESTINATION:- NEPAL
+VESSEL NO.:- [TERMS OF DELIVERY & PAYMENTS:
+DISPATCH FROM:- NOIDA, INDIA IEX-WORKS NOIDA, INDIA (INCOTERMS 2020)
+
+PLACE OF DELIVERY:- KATHMANDU, NEPAL VIA BHAIRAHAWA DRAFT AT 15 DAYS FROM COMMERCIAL INVOICE DATE AGAINST
+ICUSTOMS OFFICE, BHAIRAHAWA, NEPAL 1,/0 NO. IUDFOA126INRO145 DT. 09.01.2026
+
+FINAL DESTINATION:- KATHMANDU, NEPAL
+
+MARKS &
+NOS./CONTR No — OF DESCRIPTION OF GOODS
+No.
+
+[AS PER PROFORMA INVOICE NO.DEMPL-00251 DATED: 22-12-2025
+IHIMSTAR BRAND REFRIGERATORS (CFC FREE)
+HR-21D92BRJ
+
+29-03-2026
+
+IPRE CARRIAGE BY:-ROAD
+[PLACE OF PORT BY PRE-CARRIER:-
+
+JHR-21D92SHJ
+IHR-21D92RFJ/DXN
+HR-21D92BFJ/DXN
+HR-19P92RFK/PS
+
+HR-19P92BFK/PS
+
+GOODS ARE IN TRANSIT TO FINAL DESTINATION IN
+/KATHMANDU NEPAL VIA BHAIRAHAWA CUSTOMS OFFICE,
+IBHAIRAHAWA, NEPAL
+
+IAS PER THE LC CLAUSE 46A 4
+[WE HEREBY CERTIFY THAT MERCHANDISE ARE OF
+INDIAN ORIGIN AND ARE MANUFACTURED IN INDIA
+
+(LUT) Application Reference Number (ARN) ADO703250244468 DT. 22.03.2025
+
+\COUNTRY OF ORIGIN : INDIA
+(CUSTOMS ENTRY POINT IN NEPAL AS:
+/BHAIRAHAWA CUSTOMS OFFICE,
+I]BHAIRAHAWA, NEPAL
+ITRANSPORTER: _ NEW PRAKASH ROADWAYS
+27804 DATE 29-03-2026
+HR38Y7248
+IHARMONIC CODE (H.S. CODE): 8418.21.00
+IGST INV NO UST/EXP/2526588 DATE 29-03-2026
+IMPORT EXPORT CODE NO: AAIFU6724B
+
+Signature & Date
+FOR UST RESOURCES LLP
+For UST RESOURCES LLP
+
+avr जिन
+
+PLACE AuthovisediSignatory
+DATE 29-03-2026
+
+--- Page 4 ---
+afi NEW PRAKASH ROADWAYS “anc. oe
+
+Office : 9905900021
+
+SHOP NO. 3008, NEAR NEELKAMAL FACTORY, SECTOR-58, FARIDABAD 8190 : ५$77-98072320
+E-mail : npr_invincible@rediffmall.com, npr_invincible@yahoo.com ‘ami १ 50117500100000
+GSTIN : OFANRPP4614R1ZI ie RECEVING WILL NOT RECEIVED WITHIN 10 days balance will not be given : #977-9807446283
+
+PAN NO. : AHRPP4614R
+
+GSTIN PAYABLE BY ( TICK) CAUTION
+Carrier By Road Act, 20 nt will not be detained
+CONSIGNOR Ms y ct, 2007 Wplsconsioneberd wit et Does INSURANCE
+
+Registration No. : 150/STA/06/2015
+
+consignee Bank's written permission
+CONSIGNMENT NOTE
+
+| No.
+
+| CONSIGNEE
+
+CONSIGNEE COPY
+
+AT OWNER’S RISK
+
+TRUCK NO.
+
+HR3SY F248
+
+Door Delivery] (|
+
+Consignor’s UST RESOURCES LLP ,£ 20F, FIRST FLOOR । NEAR F BLOC
+
+ated | 29103] 2026
+
+days per qtl. on weight charged. | Container
+
+| Seal No.
+Booking Branch Code
+
+[| | {|
+
+Delivery Branch Code
+
+NVIKASHPOURD, NEW DELEH, OOS INDIA. TEL tHASUZUFUPT .
+To, ®LOBAL IME BANK LIMITED, NEPAL, NOTIFY:
+Consignee ELECTRONICS PVT-LTD, NARAYANCHAUR, NAXAL
+९.०. ९००: 6633. KATHMANDU, NEPAL, PAN: 30004U 679+
+EAM Code) 2600446270 I34NP, TEL! 4+ 9FF-1- 444555 .
+
+WEIGHT Rate FREIGHT Mode of
+| Actual [Charged| Per Kg. 8 Payment
+[Freight | ।
+ce पि L- 002
+DEST e2pinows ETE सिरक तक oe
+SAVER 22112120090 ०५०७ राई २
+
+७-६ Cope :8५1४.2):00.
+
+0७०९ ARE IN TRANSIT To FINAL DESTINATION | Private Marks a | ८०८
+
+IN KATHMANDU, NEPAL VLA BRAIRRHARWA LECT
+LUSTOMS ०९£।९६ , BHAIRAHAWA> NEPAL -
+
+Consignee’s Consignor’s
+CST No. CST No.
+
+Invoice Value Rs. 2,3t/820. 00: (All Claim / Disputes Subject to Jurisdiction of Faridabad only) 1०08 ass es A eS ROADWAYS
+
+(Terms & condition overleaf)
+
+१७५८ ९९।€९ .
+
+--- Page 5 ---
+UST
+UST lec ources LLP
+
+Date: 29.03.2026
+
+TO WHOM IT MAY CONCERN
+
+This is to certify that the HIMSTAR Brand Refrigerators supplied by UST RESOURCES LLP
+to HIM ELECTRONICS PVT. LTD, NARAYANCHAUR NAXAL, P.O.BOX NO.6633
+KATHMANDU, NEPAL, against our Invoice No UST/EXP/2526588 Dated 29.03.2026, are
+all CFC FREE REFRIGERATORS.
+
+Thanking You
+
+For UST Resources LLP
+
+For UST RESOURCES LLP
+
+Authorised Signatory
+
+Authorised Signatory
+
+F-207, First Floor, Vikaspuri, New Delhi - 110018. Ph. : 7669996215, 9811347487
+E-mail : souritkumarrroy@gmail.com, souritrana@yahoo.com, tulika256@gmail.com
+
+--- Page 6 ---
+UST
+UST lec ources LLP
+
+Date :29.03.2026
+
+TO WHOM IT MAY CONCERN
+
+As per the end use criteria the goods under our Export Invoice No UST/EXP/2526588
+Dated 29.03.2026 does not fall under any category SCOMET list and are going to be used
+exclusively for concerns or to be used in trading consumers goods.
+
+Thanking You
+
+For UST Resources LLP
+
+For UST RESOURCES LLP
+as ROK
+
+Authorised Signatory
+
+Authorised Signatory
+
+F-207, First Floor, Vikaspuri, New Delhi - 110018. Ph. : 7669996215, 9811347487
+E-mail : souritkumarrroy@gmail.com, souritrana@yahoo.com, tulika256@gmail.com

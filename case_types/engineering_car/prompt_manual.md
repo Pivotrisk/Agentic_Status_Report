@@ -1,0 +1,64 @@
+You are working inside my project workspace. Continue the engineering Contractor's All Risk insurance report workflow using the OCR text that already exists in the selected case type portfolio.
+
+Default case type: `engineering_car`
+Default OCR path: `Working_3/current/output/output.txt`
+
+Do not try to run `Working_3/ocr.py` in this prompt. Assume the user has already run OCR manually for the selected case type.
+
+Your job is to do all of the following in order:
+
+1. Read the OCR output from `Working_3/current/output/output.txt` unless the user gives another path.
+2. If the selected OCR file does not exist or is empty, stop and clearly tell the user to place documents in `Working_3/current/input/` and run `python Working_3/ocr.py` or `py Working_3/ocr.py` first.
+3. Use these reference files to understand the expected engineering CAR case structure and report style:
+   - `Working_3/case_types/engineering_car/examples/` as sample engineering CAR case documents and reference output
+   - `Working_3/case_types/engineering_car/examples/example_output.md` as the converted sample engineering CAR report
+   - `Working_3/case_types/engineering_car/format/engineering_car_format.md` as the editable engineering CAR report template
+   - `Working_3/case_types/engineering_car/format/format.md` as the workflow engineering CAR report template
+   - `Working_3/case_types/engineering_car/format/template.docx` as the mapped Word template with `{{...}}` placeholders
+   - `Working_3/case_types/engineering_car/fields.json` as the extraction schema
+4. Extract structured data from the OCR text and create one valid JSON object using exactly the fields listed in `Working_3/case_types/engineering_car/fields.json`.
+5. Save that JSON to `Working_3/current/output/data.json`.
+6. Read `Working_3/case_types/engineering_car/format/format.md` and fill its placeholders using the values from `Working_3/current/output/data.json`.
+7. While filling the selected format template, treat sections 3 `Cause Of The Loss`, 5 `Brief Description Of Damaged Site And Details Of The Loss`, 7 `Adequacy Of Sum Insured`, and 8 `Observation` as narrative sections. For those sections, do not only substitute placeholders. Write short professional engineering CAR survey-report prose using the OCR text, the extracted JSON facts, and reasonable document-supported inference.
+8. For Table 4 `Estimated Claim Of Loss`, populate `estimated_claim_table_rows` dynamically from the OCR text. Include every damaged/claimed item found in the estimated claim table. Do not include the table header, separator, or total row inside `estimated_claim_table_rows`.
+9. Create the final report in markdown and save it to `Working_3/current/output/<name_of_insured>_status_report.md`, using a lowercase underscore slug of `name_of_insured` for the filename.
+10. If Python execution is available in this session, run `Working_3/generate_word_report.py --case-type engineering_car` so the mapped engineering CAR Word template is filled and saved to `Working_3/current/output/<name_of_insured>_status_report.docx`.
+11. If Python execution is available in this session, run `Working_3/archive_case.py --case-type engineering_car` so the current case is preserved in its own folder inside `Working_3/case_types/engineering_car/archives/cases/` without overwriting previous cases.
+12. If Python execution is not available, clearly tell the user to run `python Working_3/generate_word_report.py --case-type engineering_car` and `python Working_3/archive_case.py --case-type engineering_car`, or the equivalent `py` commands, manually after reviewing the report.
+
+Rules for extraction:
+
+- Return one JSON object only for the data extraction step.
+- Use exactly the field names listed in `Working_3/case_types/engineering_car/fields.json`.
+- If a value is not found, use `""`.
+- Do not hallucinate.
+- Prefer exact values from the documents.
+- If OCR is noisy, infer carefully only when the intended value is still clear from context.
+- Preserve numbers, policy numbers, claim numbers, endorsement numbers, dates, contract numbers, and addresses as accurately as possible.
+- Use the CAR policy schedule as the primary source for principal, contractor, contract title, site of construction, sum insured, section I / section II values, deductibles, covered risks, and clauses.
+- Use the IRD/PAN/company registration document as the primary source for the Company Registration from IRD table, including PAN, English/Nepali names, address, ward, office, effective registration date, trade names, main business, registration details, and tax clearance details.
+- Use intimation, deputation, claim form, ward report, photographs, stock/equipment list, estimates, lease agreements, audit report, and other supporting documents to map loss details, damaged items, and assessment facts.
+- For `enclosed_documents`, return a markdown bullet list with one line per enclosed/supporting document found in the OCR text.
+- For `estimated_claim_table_rows`, return markdown table rows only, one line per item in the form `| SN | Name of Equipment / Work | Specification | Value / Amount | Remarks |`.
+- For narrative fields, write concise case-specific report prose supported by the OCR text.
+
+Rules for report generation:
+
+- Follow `Working_3/case_types/engineering_car/format/format.md` closely.
+- Keep the report professional and clean.
+- Do not invent missing facts.
+- If a placeholder maps to a current JSON field, fill it from `Working_3/current/output/data.json`.
+- If a placeholder is not supported by the current JSON schema, leave it blank or keep it for manual completion.
+- Preserve the existing structure of the selected engineering CAR format template and do not rewrite it into a different report style.
+- Do not include the proforma invoice / professional fee section.
+- Dynamic table row placeholders must expand as Markdown table rows, not as inline code.
+- In narrative sections, rely first on OCR text and extracted facts, and only make careful, limited inferences that are strongly supported by the documents.
+
+Required outputs:
+
+- `Working_3/current/output/data.json`
+- `Working_3/current/output/<name_of_insured>_status_report.md`
+- `Working_3/current/output/<name_of_insured>_status_report.docx` if Python execution is available in the session
+- one archived case folder inside `Working_3/case_types/engineering_car/archives/cases/` if Python execution is available in the session
+
+At the end, briefly confirm what files were created or updated.
