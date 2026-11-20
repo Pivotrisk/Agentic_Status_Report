@@ -10,15 +10,15 @@ from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 BASE_DIR = Path(__file__).resolve().parents[4]
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
+CURRENT_DIR = Path(__file__).resolve().parents[3]
 
 
 def default_input_dir() -> Path:
-    return CURRENT_DIR / "input"
+    return CURRENT_DIR / "current_input"
 
 
 def default_output_file() -> Path:
-    return CURRENT_DIR / "output" / "output.txt"
+    return CURRENT_DIR / "current_output" / "ocr_output.txt"
 
 
 def parse_args() -> argparse.Namespace:

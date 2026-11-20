@@ -1,5 +1,4 @@
 import argparse
-import os
 from pathlib import Path
 
 import pypdfium2 as pdfium
@@ -9,16 +8,15 @@ from PIL import Image
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
+WORKSPACE_DIR = Path(__file__).resolve().parent
 
 
 def default_input_dir() -> Path:
-    return CURRENT_DIR / "input"
+    return WORKSPACE_DIR / "current_input"
 
 
 def default_output_file() -> Path:
-    return CURRENT_DIR / "output" / "output.txt"
+    return WORKSPACE_DIR / "current_output" / "ocr_output.txt"
 
 
 def parse_args() -> argparse.Namespace:
@@ -55,8 +53,10 @@ def process_pdf(file_path):
                 # Render at 300 DPI for reliable OCR of scanned documents.
                 image = page.render(scale=300 / 72).to_pil()
                 page_text = pytesseract.image_to_string(image, lang="eng+nep")
-                text += f"\n--- Page {i + 1} ---\n"
-                text += page_text
+                if page_text.strip():
+                    text += f"\n--- Page {i + 1} ---\n{page_text}"
+                else:
+                    print(f"No text found in {file_path.name}, page {i + 1}.")
             except Exception as e:
                 print(f"OCR error on page {i + 1}: {e}")
             finally:
@@ -69,8 +69,8 @@ def process_pdf(file_path):
 
 def process_image(file_path):
     try:
-        image = Image.open(file_path)
-        return pytesseract.image_to_string(image, lang="eng+nep")
+        with Image.open(file_path) as image:
+            return pytesseract.image_to_string(image, lang="eng+nep")
     except Exception as e:
         print(f"Error processing image {file_path}: {e}")
         return ""
@@ -99,14 +99,23 @@ def main():
     input_folder = args.input
     output_file = args.output
 
-    if not input_folder.exists():
+    if not input_folder.is_dir():
         raise FileNotFoundError(f"Input folder not found: {input_folder}")
 
+    print(f"Input folder: {input_folder.resolve()}")
+    supported_files = sorted(
+        path for path in input_folder.iterdir()
+        if path.is_file() and path.suffix.lower() in {".pdf", ".png", ".jpg", ".jpeg"}
+    )
+    if not supported_files:
+        raise RuntimeError(
+            f"No supported documents found in {input_folder.resolve()}. "
+            "Place PDF, PNG, JPG, or JPEG files there, or use --input PATH."
+        )
     all_text = ""
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-    for file in os.listdir(input_folder):
-        file_path = input_folder / file
+    for file_path in supported_files:
+        file = file_path.name
         doc_type = get_doc_type(file)
 
         if file.lower().endswith(".pdf"):
@@ -126,9 +135,12 @@ def main():
 
     if not all_text.strip():
         raise RuntimeError(
-            "OCR produced no text. Check the input files and the errors shown above."
+            f"OCR produced no text from {len(supported_files)} document(s) in "
+            f"{input_folder.resolve()}. Check the OCR errors above and document readability. "
+            "Any existing output file has been left unchanged."
         )
 
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(all_text)
 

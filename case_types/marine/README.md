@@ -4,8 +4,7 @@ This folder contains the marine insurance preliminary survey workflow assets.
 
 Included now:
 
-- `format/marine_format.md` based on the shared base format and the marine example report.
-- `format/format.md` as a compatibility copy of the same marine format.
+- `format/marine_template.md` synchronized with the updated `format/marine_template.docx` status survey report.
 - `fields.json` with marine extraction fields, including dynamic Markdown table rows for imported goods.
 - `examples/example_output.md` converted from the Him Electronics marine report and trimmed to preliminary-report scope.
 - `examples/FInal of Him Electronic.docx` as the original Word reference.

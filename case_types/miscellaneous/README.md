@@ -5,7 +5,7 @@ Placeholder for insurance cases that do not fit the primary configured types.
 Add later:
 
 - `fields.json`
-- `format.md`
+- `format/miscellaneous_template.md`
 - `example_output.md`
 - sample documents in `examples/`
 

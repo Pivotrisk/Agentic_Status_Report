@@ -10,7 +10,7 @@ from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
+CURRENT_DIR = Path(__file__).resolve().parents[3]
 
 
 def parse_args() -> argparse.Namespace:
@@ -20,13 +20,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--input",
         type=Path,
-        default=CURRENT_DIR / "input",
+        default=CURRENT_DIR / "current_input",
         help="Folder containing the current case documents.",
     )
     parser.add_argument(
         "--output",
         type=Path,
-        default=CURRENT_DIR / "output" / "output.txt",
+        default=CURRENT_DIR / "current_output" / "ocr_output.txt",
         help="OCR text output file.",
     )
     return parser.parse_args()

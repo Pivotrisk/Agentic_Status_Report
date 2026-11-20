@@ -16,7 +16,7 @@ from Database.database import (
 
 BASE_DIR = PROJECT_ROOT
 CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
+CURRENT_DIR = Path(__file__).resolve().parent
 DEFAULT_CASE_TYPE = "property"
 DEFAULT_FIELDS = [
     "name_of_insurer_company",
@@ -64,7 +64,7 @@ DEFAULT_FIELDS = [
 
 
 def default_current_output_dir() -> Path:
-    return CURRENT_DIR / "output"
+    return CURRENT_DIR / "current_output"
 
 
 def parse_args() -> argparse.Namespace:

@@ -6,18 +6,20 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
-DEFAULT_CASE_TYPE = "property"
-DEFAULT_TEMPLATE = BASE_DIR / "draft" / "Status Report" / "TR INTERNATIONAL ,SITAPAILA.docx"
+WORKSPACE_DIR = Path(__file__).resolve().parents[3]
+CASE_TYPES_DIR = WORKSPACE_DIR / "case_types"
+CURRENT_DIR = WORKSPACE_DIR
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate a Word status report for one insurance case type portfolio."
     )
-    parser.add_argument("--case-type", default=DEFAULT_CASE_TYPE)
+    parser.add_argument(
+        "--case-type", required=True,
+        choices=sorted(path.name for path in CASE_TYPES_DIR.iterdir() if path.is_dir()),
+        help="Insurance case type; selects format/<case-type>_template.docx.",
+    )
     parser.add_argument(
         "--case-dir",
         type=Path,
@@ -25,12 +27,26 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--input", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--template", type=Path, default=DEFAULT_TEMPLATE)
+    parser.add_argument("--template", type=Path, help="Optional Word template override for the selected case type.")
     return parser.parse_args()
 
 
 def resolve_case_dir(case_type: str, case_dir: Path | None) -> Path:
     return case_dir if case_dir else CASE_TYPES_DIR / case_type
+
+
+def resolve_template(case_dir: Path, requested_template: Path | None, case_type: str) -> Path:
+    template_path = (
+        requested_template
+        if requested_template is not None
+        else case_dir / "format" / f"{case_type}_template.docx"
+    )
+    if not template_path.is_file():
+        raise FileNotFoundError(
+            f"Word template for case type '{case_type}' not found: {template_path}. "
+            "Add the matching template or specify --template PATH."
+        )
+    return template_path
 
 
 def clear_document(document: Document) -> None:
@@ -189,11 +205,12 @@ def save_document(document: Document, output_path: Path) -> Path:
 def main() -> None:
     args = parse_args()
     case_dir = resolve_case_dir(args.case_type, args.case_dir)
-    input_path = args.input or CURRENT_DIR / "output" / "final_report.md"
-    output_path = args.output or CURRENT_DIR / "output" / "final_report.docx"
+    input_path = args.input or CURRENT_DIR / "current_output" / "final_report.md"
+    output_path = args.output or CURRENT_DIR / "current_output" / "final_report.docx"
 
+    template_path = resolve_template(case_dir, args.template, args.case_type)
     markdown_text = input_path.read_text(encoding="utf-8")
-    document = build_document(markdown_text, args.template)
+    document = build_document(markdown_text, template_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     saved_path = save_document(document, output_path)
     print(f"Word report saved to: {saved_path}")

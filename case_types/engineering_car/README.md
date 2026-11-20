@@ -5,7 +5,7 @@ Placeholder for Contractor's All Risks or engineering insurance workflow assets.
 Add later:
 
 - `fields.json`
-- `format.md`
+- `format/engineering_car_template.md`
 - `example_output.md`
 - sample documents in `examples/`
 

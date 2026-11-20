@@ -5,6 +5,6 @@ Placeholder for agriculture insurance workflow assets.
 Add later:
 
 - `fields.json`
-- `format.md`
+- `format/agriculture_template.md`
 - `example_output.md`
 - sample documents in `examples/`

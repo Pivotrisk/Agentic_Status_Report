@@ -1,18 +1,18 @@
 You are working inside my project workspace. Continue the insurance report workflow using the OCR text that already exists in the selected case type portfolio.
 
 Default case type: `property`
-Default OCR path: `Working_3/current/output/output.txt`
+Default OCR path: `Working_3/current_output/ocr_output.txt`
 
 Do not try to run `Working_3/ocr.py` in this prompt. Assume the user has already run OCR manually for the selected case type.
 
 Your job is to do all of the following in order:
 
-1. Read the OCR output from `Working_3/current/output/output.txt` unless the user gives another path.
-2. If the selected OCR file does not exist or is empty, stop and clearly tell the user to place documents in `Working_3/current/input/` and run `python Working_3/ocr.py` or `py Working_3/ocr.py` first.
+1. Read the OCR output from `Working_3/current_output/ocr_output.txt` unless the user gives another path.
+2. If the selected OCR file does not exist or is empty, stop and clearly tell the user to place documents in `Working_3/current_input/` and run `python Working_3/ocr.py` or `py Working_3/ocr.py` first.
 3. Use these reference files to understand the expected case structure and report style:
    - `Working_3/case_types/property/examples/` as sample input case documents
    - `Working_3/case_types/property/format/example_output.md` as sample output report
-   - `Working_3/case_types/property/format/property_format.md` as the final report template
+   - `Working_3/case_types/property/format/property_template.md` as the final report template
    - `Working_3/case_types/property/fields.json` as the extraction schema
 4. Extract structured data from the OCR text and create one valid JSON object using exactly these fields:
    - `name_of_insurer_company`
@@ -56,12 +56,12 @@ Your job is to do all of the following in order:
    - `estimated_claim_amount`
    - `total_damaged_quantity`
    - `estimated_claim_table_rows`
-5. Save that JSON to `Working_3/current/output/data.json`.
-6. Read `Working_3/case_types/property/format/property_format.md` and fill its placeholders using the values from `Working_3/current/output/data.json`.
+5. Save that JSON to `Working_3/current_output/data.json`.
+6. Read `Working_3/case_types/property/format/property_template.md` and fill its placeholders using the values from `Working_3/current_output/data.json`.
 7. While filling the selected format template, treat sections 3 `CAUSE & NATURE OF INCIDENT`, 4 `Spot and Preliminary Survey Details`, and 6 `Observation` as narrative sections. For those sections, do not only substitute placeholders. Write short professional report prose using the OCR text, the extracted JSON facts, and reasonable document-supported inference.
-8. Create the final report in markdown and save it to `Working_3/current/output/<name_of_insured>_status_report.md`, using a lowercase underscore slug of `name_of_insured` for the filename. Example: `Working_3/current/output/him_electronics_pvt_ltd_status_report.md`.
-9. If Python execution is available in this session, run `Working_3/generate_word_report.py --case-type property` so the property Word report is created at `Working_3/current/output/<name_of_insured>_status_report.docx`.
-10. After Word report generation completes, run `Working_3/archive_case.py --case-type property` so the current case, including the Word report, is preserved in its own folder inside `Working_3/case_types/property/archives/cases/` without overwriting previous cases.
+8. Create the final report in markdown and save it to `Working_3/current_output/<name_of_insured>_status_report.md`, using a lowercase underscore slug of `name_of_insured` for the filename. Example: `Working_3/current_output/him_electronics_pvt_ltd_status_report.md`.
+9. If Python execution is available in this session, run `Working_3/generate_word_report.py --case-type property` so the property Word report is created at `Working_3/current_output/<name_of_insured>_status_report.docx`.
+10. After Word report generation completes, run `Working_3/archive_case.py --case-type property` so the current case, including the Word report, is preserved in its own folder inside `Working_3/case_types/property/archive_cases/` without overwriting previous cases.
 11. If Python execution is not available, clearly tell the user to run `python Working_3/generate_word_report.py --case-type property` and then `python Working_3/archive_case.py --case-type property`, or the equivalent `py` commands, manually after reviewing the report.
 
 Rules for extraction:
@@ -85,10 +85,10 @@ Rules for extraction:
 
 Rules for report generation:
 
-- Follow `Working_3/case_types/property/format/property_format.md` closely.
+- Follow `Working_3/case_types/property/format/property_template.md` closely.
 - Keep the report professional and clean.
 - Do not invent missing facts.
-- If a placeholder maps to a current JSON field, fill it from `Working_3/current/output/data.json`.
+- If a placeholder maps to a current JSON field, fill it from `Working_3/current_output/data.json`.
 - If a placeholder is not supported by the current JSON schema, leave it blank or keep it for manual completion.
 - Preserve the existing structure of the selected format template and do not rewrite it into a different report style.
 - For sections 3, 4, and 6, generate concise explanatory paragraphs in a professional survey-report tone.
@@ -97,8 +97,8 @@ Rules for report generation:
 
 Required outputs:
 
-- `Working_3/current/output/data.json`
-- `Working_3/current/output/<name_of_insured>_status_report.md`
-- one archived case folder inside `Working_3/case_types/property/archives/cases/` if Python execution is available in the session
+- `Working_3/current_output/data.json`
+- `Working_3/current_output/<name_of_insured>_status_report.md`
+- one archived case folder inside `Working_3/case_types/property/archive_cases/` if Python execution is available in the session
 
 At the end, briefly confirm what files were created or updated.
