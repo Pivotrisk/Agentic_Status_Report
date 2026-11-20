@@ -9,22 +9,24 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
-DEFAULT_CASE_TYPE = "property"
-DEFAULT_TEMPLATE = BASE_DIR / "draft" / "Status Report" / "TR INTERNATIONAL ,SITAPAILA.docx"
+WORKSPACE_DIR = Path(__file__).resolve().parent
+CASE_TYPES_DIR = WORKSPACE_DIR / "case_types"
+CURRENT_DIR = WORKSPACE_DIR
 
 
 def default_current_output_dir() -> Path:
-    return CURRENT_DIR / "output"
+    return CURRENT_DIR / "current_output"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate a Word status report for one insurance case type portfolio."
     )
-    parser.add_argument("--case-type", default=DEFAULT_CASE_TYPE)
+    parser.add_argument(
+        "--case-type",
+        choices=sorted(path.name for path in CASE_TYPES_DIR.iterdir() if path.is_dir()),
+        help="Override policy-based detection; selects format/<case-type>_template.docx.",
+    )
     parser.add_argument(
         "--case-dir",
         type=Path,
@@ -32,27 +34,74 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--input", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--template", type=Path, default=DEFAULT_TEMPLATE)
-    return parser.parse_args()
+    parser.add_argument("--template", type=Path, help="Optional Word template override for the selected case type.")
+    args = parser.parse_args()
+    if args.case_type is None:
+        try:
+            args.case_type = detect_case_type(default_current_output_dir())
+        except ValueError as exc:
+            parser.error(str(exc))
+        print(f"Detected policy case type: {args.case_type}")
+    return args
+
+
+def policy_type_candidates(text: str) -> set[str]:
+    """Recognize explicit policy descriptions, not incidental covered risks."""
+    patterns = {
+        "marine": r"\bmarine\b",
+        "property": r"\bproperty\b|\bfire\s+(?:and\s+allied\s+perils|insurance|policy)\b",
+        "engineering_car": r"\bengineering\b|\bcontractors?[’']?\s+all\s+risks?\b|\berection\s+all\s+risks?\b",
+        "motor": r"\bmotor\b|\bvehicle\s+(?:insurance|policy)\b",
+        "agriculture": r"\bagricultur\w*\b|\b(?:crop|livestock|cattle)\s+(?:insurance|policy)\b",
+        "miscellaneous": r"\bmiscellaneous\b",
+    }
+    return {name for name, pattern in patterns.items() if re.search(pattern, text, re.I)}
+
+
+def detect_case_type(output_dir: Path) -> str:
+    data = load_case_data(output_dir)
+    descriptions = [str(data.get(key, "") or "") for key in
+                    ("type_of_policy", "policy_type", "insurance_type")]
+    candidates = policy_type_candidates("\n".join(descriptions))
+    if not candidates:
+        ocr_path = output_dir / "ocr_output.txt"
+        if ocr_path.is_file():
+            ocr = ocr_path.read_text(encoding="utf-8")
+            # Limit fallback to policy documents and short policy-title lines.
+            # Whole-document matching would confuse cargo cover with motor or fire.
+            for block in re.split(r"(?=^===== DOCUMENT:)", ocr, flags=re.M):
+                heading = block.splitlines()[0] if block.splitlines() else ""
+                if not re.search(r"\bpolicy\b", heading, re.I):
+                    continue
+                for line in block.splitlines()[1:]:
+                    if len(line) <= 120 and re.search(
+                        r"(?:^\s*(?:type of policy|policy type|department)\s*:|"
+                        r"\b(?:insurance|policy|cargo declaration|all risks)\s*$)", line, re.I
+                    ):
+                        candidates.update(policy_type_candidates(line))
+    if len(candidates) == 1:
+        return candidates.pop()
+    reason = "conflicting policy types: " + ", ".join(sorted(candidates)) if candidates else "no recognizable policy type"
+    raise ValueError(f"Cannot detect case type ({reason}). Specify --case-type explicitly.")
 
 
 def resolve_case_dir(case_type: str, case_dir: Path | None) -> Path:
     return case_dir if case_dir else CASE_TYPES_DIR / case_type
 
 
-def resolve_template(case_dir: Path, requested_template: Path) -> Path:
-    if requested_template != DEFAULT_TEMPLATE:
-        return requested_template
+def resolve_template(case_dir: Path, requested_template: Path | None, case_type: str) -> Path:
+    template_path = (
+        requested_template
+        if requested_template is not None
+        else case_dir / "format" / f"{case_type}_template.docx"
+    )
+    if not template_path.is_file():
+        raise FileNotFoundError(
+            f"Word template for case type '{case_type}' not found: {template_path}. "
+            "Add the matching template or specify --template PATH."
+        )
+    return template_path
 
-    format_dir = case_dir / "format"
-    candidates = [
-        format_dir / "template.docx",
-        format_dir / "word_template.docx",
-        case_dir / "template.docx",
-    ]
-    candidates.extend(sorted(format_dir.glob("*.docx")))
-
-    return next((path for path in candidates if path.exists()), requested_template)
 
 
 def slugify(value: str, default: str = "insured") -> str:
@@ -193,8 +242,8 @@ def set_paragraph_text(paragraph, text: str) -> None:
 def set_cell_text(cell, text: str) -> None:
     paragraph = cell.paragraphs[0] if cell.paragraphs else cell.add_paragraph()
     set_paragraph_text(paragraph, text)
-    for extra_paragraph in cell.paragraphs[1:]:
-        set_paragraph_text(extra_paragraph, "")
+    for extra_paragraph in list(cell.paragraphs[1:]):
+        extra_paragraph._element.getparent().remove(extra_paragraph._element)
 
 
 def replace_placeholders_in_text(text: str, context: dict[str, str]) -> str:
@@ -259,6 +308,22 @@ def parse_estimated_claim_rows(data: dict) -> list[list[str]]:
         [str(index), item, "", "", "", ""]
         for index, item in enumerate(split_items(value(data, "items_damaged")), start=1)
     ]
+
+
+def parse_markdown_table_rows(rows_text: str, column_count: int) -> list[list[str]]:
+    rows: list[list[str]] = []
+    for line in rows_text.splitlines():
+        line = line.strip()
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip().strip("*`") for cell in line.strip("|").split("|")]
+        if len(cells) >= column_count:
+            rows.append(cells[:column_count])
+    return rows
+
+
+def parse_imported_goods_rows(data: dict) -> list[list[str]]:
+    return parse_markdown_table_rows(value(data, "imported_goods_table_rows"), 7)
 
 
 def remove_table_row(table, row_index: int) -> None:
@@ -458,6 +523,187 @@ def fill_estimated_claim_table(document: Document, data: dict) -> None:
     set_cell_text(total_row.cells[5], total)
 
 
+def fill_marine_imported_goods_table(document: Document, data: dict) -> None:
+    if len(document.tables) < 3:
+        return
+
+    cargo_rows = parse_imported_goods_rows(data)
+    table = document.tables[2]
+    ensure_table_columns(table, 7)
+    ensure_table_rows(table, max(2, len(cargo_rows) + 2))
+    headers = ["SN", "Goods Description", "Specification", "HSN Code", "Qty", "Rate", "Amount"]
+    for column_index, header in enumerate(headers):
+        set_cell_text(table.rows[0].cells[column_index], header)
+
+    for row_index, row_values in enumerate(cargo_rows, start=1):
+        cells = table.rows[row_index].cells
+        for column_index, cell_value in enumerate(row_values[:7]):
+            set_cell_text(cells[column_index], cell_value)
+
+    total_row = table.rows[len(cargo_rows) + 1]
+    set_cell_text(total_row.cells[0], "Total")
+    set_cell_text(total_row.cells[1], "")
+    set_cell_text(total_row.cells[2], "")
+    set_cell_text(total_row.cells[3], "")
+    set_cell_text(total_row.cells[4], value(data, "total_quantity"))
+    set_cell_text(total_row.cells[5], "")
+    set_cell_text(total_row.cells[6], value(data, "invoice_value"))
+
+
+def fill_marine_estimated_claim_table(document: Document, data: dict) -> None:
+    if len(document.tables) < 6:
+        return
+
+    claim_rows = parse_estimated_claim_rows(data)
+    table = document.tables[5]
+    ensure_table_columns(table, 6)
+    ensure_table_rows(table, max(2, len(claim_rows) + 2))
+    headers = ["SN", "Item Description", "Invoice Quantity", "Damage Quantity", "Rate", "Amount"]
+    for column_index, header in enumerate(headers):
+        set_cell_text(table.rows[0].cells[column_index], header)
+
+    for row_index, row_values in enumerate(claim_rows, start=1):
+        cells = table.rows[row_index].cells
+        for column_index, cell_value in enumerate(row_values[:6]):
+            set_cell_text(cells[column_index], cell_value)
+
+    total_row = table.rows[len(claim_rows) + 1]
+    set_cell_text(total_row.cells[0], "Total")
+    set_cell_text(total_row.cells[1], "")
+    set_cell_text(total_row.cells[2], "")
+    set_cell_text(total_row.cells[3], value(data, "total_damaged_quantity"))
+    set_cell_text(total_row.cells[4], "")
+    set_cell_text(total_row.cells[5], value(data, "estimated_claim_amount"))
+
+
+def parse_engineering_claim_rows(data: dict) -> list[list[str]]:
+    rows = parse_markdown_table_rows(value(data, "estimated_claim_table_rows"), 5)
+    if rows:
+        return rows
+
+    return [
+        [str(index), item, "", "", ""]
+        for index, item in enumerate(split_items(value(data, "items_damaged")), start=1)
+    ]
+
+
+def fill_engineering_estimated_claim_table(document: Document, data: dict) -> None:
+    if len(document.tables) < 4:
+        return
+
+    claim_rows = parse_engineering_claim_rows(data)
+    table = document.tables[3]
+    ensure_table_columns(table, 5)
+    ensure_table_rows(table, max(3, len(claim_rows) + 2))
+
+    headers = ["SN", "Name of Equipment", "Specification", "Value of Equipment", "Remarks"]
+    for column_index, header in enumerate(headers):
+        set_cell_text(table.rows[0].cells[column_index], header)
+
+    for row_index, row_values in enumerate(claim_rows, start=1):
+        cells = table.rows[row_index].cells
+        for column_index, cell_value in enumerate(row_values[:5]):
+            set_cell_text(cells[column_index], cell_value)
+
+    total_row = table.rows[len(claim_rows) + 1]
+    set_cell_text(total_row.cells[0], "")
+    set_cell_text(total_row.cells[1], "Total")
+    set_cell_text(total_row.cells[2], "")
+    set_cell_text(total_row.cells[3], value(data, "estimated_claim_amount"))
+    set_cell_text(total_row.cells[4], "")
+
+
+def fill_engineering_adequacy_table(document: Document, data: dict) -> None:
+    if len(document.tables) < 5:
+        return
+
+    table = document.tables[4]
+    values_by_description = {
+        "Total Sum Insured": value(data, "total_sum_insured"),
+        "Sum Insured for Construction Machinery": value(data, "construction_machinery_sum_insured"),
+        "Claim Amount": value(data, "estimated_claim_amount"),
+    }
+
+    for row in table.rows:
+        if len(row.cells) < 3:
+            continue
+        description = row.cells[1].text.strip()
+        if description in values_by_description:
+            set_cell_text(row.cells[2], values_by_description[description])
+
+
+def build_engineering_context(data: dict) -> dict[str, str]:
+    context = {key: value(data, key) for key in data}
+    context.update(
+        {
+            "submitted_by": value(data, "submitted_by", "Insurance Surveyor"),
+            "surveyor_firm": value(data, "surveyor_firm", "Pivot Risk Pvt. Ltd"),
+            "enclosed_documents": markdown_bullet_list(data, "enclosed_documents"),
+            "reference_paragraph": build_reference_paragraph(data),
+            "claim_summary": build_claim_summary(data),
+            "observation_narrative": value(data, "observation_narrative") or build_observation(data),
+            "claim_sn": "",
+            "claim_item_description": "",
+            "claim_specification": "",
+            "claim_value_amount": "",
+            "claim_remarks": "",
+        }
+    )
+    return context
+
+
+def is_engineering_template(template_path: Path, case_type: str) -> bool:
+    return case_type.lower() == "engineering_car" and template_path.exists()
+
+
+def build_engineering_template_document(data: dict, template_path: Path) -> Document:
+    document = Document(template_path)
+    replace_placeholders(document, build_engineering_context(data))
+    fill_engineering_estimated_claim_table(document, data)
+    fill_engineering_adequacy_table(document, data)
+    return document
+
+
+def document_text(document: Document) -> str:
+    paragraph_text = "\n".join(paragraph.text for paragraph in document.paragraphs)
+    table_text = "\n".join(
+        cell.text
+        for table in document.tables
+        for row in table.rows
+        for cell in row.cells
+    )
+    return f"{paragraph_text}\n{table_text}"
+
+
+def template_supports_engineering_car(template_path: Path) -> bool:
+    try:
+        document = Document(template_path)
+    except (PermissionError, BadZipFile, OSError):
+        return False
+
+    text = document_text(document)
+    required_labels = [
+        "Name and Address of Principal",
+        "Name and Address of Contractor",
+        "Title of Contract",
+        "Site of Construction",
+        "Contract No",
+        "Total Sum Insured Under Section I",
+        "Third Party Liability",
+    ]
+    property_only_labels = [
+        "Bank",
+        "Subject Matter Insured",
+        "Owner of Building",
+        "Type of Building",
+        "Insured Location from Policy",
+    ]
+
+    has_engineering_structure = sum(label in text for label in required_labels) >= 4
+    has_property_structure = sum(label in text for label in property_only_labels) >= 3
+    return has_engineering_structure and not has_property_structure
+
+
 def fill_property_template(document: Document, data: dict) -> Document:
     if has_placeholders(document):
         replace_placeholders(document, build_property_context(data))
@@ -556,6 +802,31 @@ def is_property_template(template_path: Path, case_type: str) -> bool:
 def build_property_template_document(data: dict, template_path: Path) -> Document:
     document = Document(template_path)
     return fill_property_template(document, data)
+
+
+def build_marine_context(data: dict) -> dict[str, str]:
+    context = {key: value(data, key) for key in data}
+    context.update(
+        {
+            "submitted_by": value(data, "submitted_by", "Insurance Surveyor"),
+            "surveyor_firm": value(data, "surveyor_firm", "Pivot Risk Pvt. Ltd"),
+            "reference_paragraph": build_reference_paragraph(data),
+            "observation_narrative": value(data, "observation_narrative") or build_observation(data),
+        }
+    )
+    return context
+
+
+def is_marine_template(template_path: Path, case_type: str) -> bool:
+    return case_type.lower() == "marine" and template_path.exists()
+
+
+def build_marine_template_document(data: dict, template_path: Path) -> Document:
+    document = Document(template_path)
+    replace_placeholders(document, build_marine_context(data))
+    fill_marine_imported_goods_table(document, data)
+    fill_marine_estimated_claim_table(document, data)
+    return document
 
 
 def add_runs_with_bold(paragraph, text: str) -> None:
@@ -696,11 +967,19 @@ def main() -> None:
     current_output_dir = default_current_output_dir()
     input_path = args.input or default_markdown_path(current_output_dir)
     output_path = args.output or default_output_path(current_output_dir)
-    template_path = resolve_template(case_dir, args.template)
+    template_path = resolve_template(case_dir, args.template, args.case_type)
 
     case_data = load_case_data(current_output_dir)
     if is_property_template(template_path, args.case_type) and case_data:
         document = build_property_template_document(case_data, template_path)
+    elif is_marine_template(template_path, args.case_type) and case_data:
+        document = build_marine_template_document(case_data, template_path)
+    elif (
+        is_engineering_template(template_path, args.case_type)
+        and case_data
+        and template_supports_engineering_car(template_path)
+    ):
+        document = build_engineering_template_document(case_data, template_path)
     else:
         markdown_text = input_path.read_text(encoding="utf-8")
         document = build_document(markdown_text, template_path)

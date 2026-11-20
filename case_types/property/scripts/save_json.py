@@ -16,7 +16,7 @@ from Database.database import (
 
 BASE_DIR = PROJECT_ROOT
 CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
+CURRENT_DIR = Path(__file__).resolve().parents[3]
 DEFAULT_CASE_TYPE = "property"
 DEFAULT_FIELDS = [
     "name_of_insurer_company",
@@ -81,7 +81,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        help="Where to save the validated JSON. Defaults to Working_3/current/output/data.json.",
+        help="Where to save the validated JSON. Defaults to Working_3/current_output/data.json.",
     )
     parser.add_argument(
         "--database-url",
@@ -95,7 +95,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--report",
         type=Path,
-        help="Optional Markdown report to save with the database case. Defaults to Working_3/current/output/final_report.md.",
+        help="Optional Markdown report to save with the database case. Defaults to Working_3/current_output/final_report.md.",
     )
     return parser.parse_args()
 
@@ -173,8 +173,8 @@ def main() -> None:
     args = parse_args()
     case_dir = resolve_case_dir(args.case_type, args.case_dir)
     fields = load_fields(case_dir)
-    output_path = args.output or CURRENT_DIR / "output" / "data.json"
-    report_path = args.report or CURRENT_DIR / "output" / "final_report.md"
+    output_path = args.output or CURRENT_DIR / "current_output" / "data.json"
+    report_path = args.report or CURRENT_DIR / "current_output" / "final_report.md"
 
     raw_text = read_raw_text(args.input)
 

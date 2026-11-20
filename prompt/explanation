@@ -5,27 +5,27 @@ What it tells Codex to do:
 1. Look inside the current working input folder.
 2. Check whether Python can be run in that Codex session.
 3. If Python works, run the OCR script.
-4. If Python does not work, use the already-created `output/output.txt` file instead.
-5. Read the OCR text from `Working_3/current/output/output.txt`.
+4. If Python does not work, use the already-created `current_output/ocr_output.txt` file instead.
+5. Read the OCR text from `Working_3/current_output/ocr_output.txt`.
 6. Use the saved example input case, the example output report, and the format template to understand what kind of report is expected.
-7. Extract the important information from the OCR text and save it as `Working_3/current/output/data.json`.
+7. Extract the important information from the OCR text and save it as `Working_3/current_output/data.json`.
 8. Read the saved JSON file.
 9. Fill the report format using that JSON.
-10. Save the final report as `Working_3/current/output/<name_of_insured>_status_report.md`.
+10. Save the final report as `Working_3/current_output/<name_of_insured>_status_report.md`.
 11. Archive the case automatically if Python works, otherwise tell you the manual archive command.
 
 Why this is useful:
 
 - You do not need to write a new extraction prompt every time.
 - You can reuse the property or marine prompt for new cases of that type.
-- You only need to change the files inside `Working_3/current/input`.
+- You only need to change the files inside `Working_3/current_input`.
 - Codex can then do the rest inside the project workspace.
-- Every completed case is preserved in the selected case type archive, for example `Working_3/case_types/property/archives/cases/`.
+- Every completed case is preserved in the selected case type archive, for example `Working_3/case_types/property/archive_cases/`.
 - The prompt now works even when Codex cannot run Python, as long as you already ran OCR manually.
 
 What you do each time:
 
-1. Put the new case files into `Working_3/current/input/`.
+1. Put the new case files into `Working_3/current_input/`.
 2. Run `python Working_3/ocr.py` or `py Working_3/ocr.py` yourself if needed.
 3. Open Codex chat.
 4. Paste the contents of `Working_3/prompt/prompt_property` for property cases or `Working_3/prompt/prompt_marine` for marine cases.
@@ -44,11 +44,11 @@ What the main reference files mean:
 - `Working_3/base_format.md`:
   - shared base report format kept at the Working_3 level
 
-- `Working_3/case_types/<case-type>/format/format.md`:
+- `Working_3/case_types/<case-type>/format/<case-type>_template.md`:
   The template that the final report should follow.
-- `Working_3/current/output/data.json`:
+- `Working_3/current_output/data.json`:
   The structured extracted data for the current case.
-- `Working_3/current/output/<name_of_insured>_status_report.md`:
+- `Working_3/current_output/<name_of_insured>_status_report.md`:
   The final generated report for the current case.
-- `Working_3/case_types/<case-type>/archives/cases/`:
+- `Working_3/case_types/<case-type>/archive_cases/`:
   The archive folder where each finished case is saved separately.

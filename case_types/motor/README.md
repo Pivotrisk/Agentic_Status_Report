@@ -5,7 +5,7 @@ Placeholder for motor insurance workflow assets.
 Add later:
 
 - `fields.json`
-- `format.md`
+- `format/motor_template.md`
 - `example_output.md`
 - sample documents in `examples/`
 

@@ -9,22 +9,24 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt
 
 
-BASE_DIR = Path(__file__).resolve().parents[4]
-CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
-DEFAULT_CASE_TYPE = "engineering_car"
-DEFAULT_TEMPLATE = BASE_DIR / "draft" / "Status Report" / "TR INTERNATIONAL ,SITAPAILA.docx"
+WORKSPACE_DIR = Path(__file__).resolve().parents[3]
+CASE_TYPES_DIR = WORKSPACE_DIR / "case_types"
+CURRENT_DIR = WORKSPACE_DIR
 
 
 def default_current_output_dir() -> Path:
-    return CURRENT_DIR / "output"
+    return CURRENT_DIR / "current_output"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate a Word status report for one insurance case type portfolio."
     )
-    parser.add_argument("--case-type", default=DEFAULT_CASE_TYPE)
+    parser.add_argument(
+        "--case-type", required=True,
+        choices=sorted(path.name for path in CASE_TYPES_DIR.iterdir() if path.is_dir()),
+        help="Insurance case type; selects format/<case-type>_template.docx.",
+    )
     parser.add_argument(
         "--case-dir",
         type=Path,
@@ -32,7 +34,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--input", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--template", type=Path, default=DEFAULT_TEMPLATE)
+    parser.add_argument("--template", type=Path, help="Optional Word template override for the selected case type.")
     return parser.parse_args()
 
 
@@ -40,19 +42,19 @@ def resolve_case_dir(case_type: str, case_dir: Path | None) -> Path:
     return case_dir if case_dir else CASE_TYPES_DIR / case_type
 
 
-def resolve_template(case_dir: Path, requested_template: Path) -> Path:
-    if requested_template != DEFAULT_TEMPLATE:
-        return requested_template
+def resolve_template(case_dir: Path, requested_template: Path | None, case_type: str) -> Path:
+    template_path = (
+        requested_template
+        if requested_template is not None
+        else case_dir / "format" / f"{case_type}_template.docx"
+    )
+    if not template_path.is_file():
+        raise FileNotFoundError(
+            f"Word template for case type '{case_type}' not found: {template_path}. "
+            "Add the matching template or specify --template PATH."
+        )
+    return template_path
 
-    format_dir = case_dir / "format"
-    candidates = [
-        format_dir / "template.docx",
-        format_dir / "word_template.docx",
-        case_dir / "template.docx",
-    ]
-    candidates.extend(sorted(format_dir.glob("*.docx")))
-
-    return next((path for path in candidates if path.exists()), requested_template)
 
 
 def slugify(value: str, default: str = "insured") -> str:
@@ -878,7 +880,7 @@ def main() -> None:
     current_output_dir = default_current_output_dir()
     input_path = args.input or default_markdown_path(current_output_dir)
     output_path = args.output or default_output_path(current_output_dir)
-    template_path = resolve_template(case_dir, args.template)
+    template_path = resolve_template(case_dir, args.template, args.case_type)
 
     case_data = load_case_data(current_output_dir)
     if is_property_template(template_path, args.case_type) and case_data:

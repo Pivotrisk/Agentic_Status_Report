@@ -5,9 +5,9 @@ import shutil
 from pathlib import Path
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
-CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
+WORKSPACE_DIR = Path(__file__).resolve().parent
+CURRENT_DIR = WORKSPACE_DIR
+CASE_TYPES_DIR = WORKSPACE_DIR / "case_types"
 DEFAULT_CASE_TYPE = "property"
 
 
@@ -29,7 +29,7 @@ def parse_args() -> argparse.Namespace:
         "--current-dir",
         type=Path,
         default=default_current_dir(),
-        help="Current working case directory containing input/ and output/.",
+        help="Workspace directory containing current_input/ and current_output/.",
     )
     parser.add_argument(
         "--keep-current",
@@ -79,8 +79,8 @@ def clear_directory_contents(path: Path) -> None:
 
     resolved = path.resolve()
     allowed_roots = {
-        (BASE_DIR / "Working_3" / "current" / "input").resolve(),
-        (BASE_DIR / "Working_3" / "current" / "output").resolve(),
+        (CURRENT_DIR / "current_input").resolve(),
+        (CURRENT_DIR / "current_output").resolve(),
     }
     if resolved not in allowed_roots:
         raise ValueError(f"Refusing to clear unexpected current directory: {path}")
@@ -95,12 +95,12 @@ def clear_directory_contents(path: Path) -> None:
 def main() -> None:
     args = parse_args()
     case_dir = resolve_case_dir(args.case_type, args.case_dir)
-    current_output_dir = args.current_dir / "output"
-    current_input_dir = args.current_dir / "input"
-    cases_dir = case_dir / "archives" / "cases"
+    current_output_dir = args.current_dir / "current_output"
+    current_input_dir = args.current_dir / "current_input"
+    cases_dir = case_dir / "archive_cases"
 
     data_file = current_output_dir / "data.json"
-    ocr_file = current_output_dir / "output.txt"
+    ocr_file = current_output_dir / "ocr_output.txt"
     report_file = current_output_dir / "final_report.md"
     word_report_file = current_output_dir / "final_report.docx"
 
@@ -117,6 +117,10 @@ def main() -> None:
     archive_dir = cases_dir / f"{insured_slug}__{claim_slug}"
     archive_dir = unique_path(archive_dir)
     archive_dir.mkdir(parents=True, exist_ok=True)
+    input_archive_dir = archive_dir / "input"
+    output_archive_dir = archive_dir / "output"
+    input_archive_dir.mkdir()
+    output_archive_dir.mkdir()
 
     archived_files = []
 
@@ -132,10 +136,10 @@ def main() -> None:
     )
 
     file_map = {
-        data_file: archive_dir / f"data_{insured_slug}.json",
-        ocr_file: archive_dir / f"ocr_{insured_slug}.txt",
-        report_source: archive_dir / f"status_report_{insured_slug}.md",
-        word_report_source: archive_dir / f"status_report_{insured_slug}.docx",
+        data_file: output_archive_dir / f"data_{insured_slug}.json",
+        ocr_file: output_archive_dir / f"ocr_{insured_slug}.txt",
+        report_source: output_archive_dir / f"status_report_{insured_slug}.md",
+        word_report_source: output_archive_dir / f"status_report_{insured_slug}.docx",
     }
 
     for source, destination in file_map.items():
@@ -145,17 +149,17 @@ def main() -> None:
 
     copied_output_sources = {source.resolve() for source in file_map if source.exists()}
     if current_output_dir.exists():
-        extra_output_dir = archive_dir / "output_files"
         for source in current_output_dir.iterdir():
-            if not source.is_file() or source.resolve() in copied_output_sources:
+            if source.resolve() in copied_output_sources:
                 continue
-            extra_output_dir.mkdir(exist_ok=True)
-            destination = extra_output_dir / source.name
-            shutil.copy2(source, destination)
+            destination = unique_path(output_archive_dir / source.name)
+            if source.is_dir():
+                shutil.copytree(source, destination)
+            else:
+                shutil.copy2(source, destination)
             archived_files.append(destination)
 
     if current_input_dir.exists():
-        input_archive_dir = archive_dir / "input_documents"
         shutil.copytree(current_input_dir, input_archive_dir, dirs_exist_ok=True)
         archived_files.append(input_archive_dir)
 
@@ -170,9 +174,9 @@ def main() -> None:
     ]
 
     for archived_file in archived_files:
-        summary_lines.append(f"- `{archived_file.name}`")
+        summary_lines.append(f"- `{archived_file.relative_to(archive_dir).as_posix()}`")
 
-    (archive_dir / "README.md").write_text(
+    unique_path(output_archive_dir / "archive_summary.md").write_text(
         "\n".join(summary_lines) + "\n",
         encoding="utf-8",
     )

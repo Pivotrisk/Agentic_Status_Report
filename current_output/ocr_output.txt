@@ -1,0 +1,2219 @@
+
+
+===== DOCUMENT: Unknown Document (Bank_statements.pdf) =====
+
+--- Page 1 ---
+700 02
+
+SCBLSG22XXX
+
+227: SEQUENCE OF TOTAL DATE: 8,APRIL, 2026
+1/1
+
+240A: FORM OF DOCUMENTARY CREDIT
+
+IRREVOCABLE
+
+2:20: DOCUMENTARY CREDIT NUMBER
+477010408038-L
+
+:310: DATE OF ISSUE
+
+260408
+
+:40E: APPLICABLE RULES
+
+UCP LATEST VERSION
+
+:31D: DATE AND PLACE OF EXPIRY
+
+260704CHINA
+
+250: APPLICANT
+
+EOL PRIVATE LIMITED
+
+WARD 2, SANEPA, LALITPUR SUB
+
+METROPOLITAN LALITPUR
+
+NEPAL
+
+259: BENEFICIARY
+
+MIDEA ELECTRIC TRADING (SINGAPORE)
+
+CO., PTE LTD
+
+158 CECIL STREET HEX07-01/02
+
+SINGAPORE 069545
+
+:32B: CURRENCY CODE, AMOUNT
+
+USD130780,
+
+:41D: AVAILABLE WITH....BY....
+
+ANY BANK
+
+BY NEGOTIATION
+
+:42C: DRAFTS AT...
+
+DRAFT AT SIGHT
+
+:42D: DRAWEE
+
+STANDARD CHARTERED BANK NEPAL
+
+LIMITED
+
+TRADE OPERATIONS, 2ND FLOOR, SCBNL
+
+NAYA BANESHWOR, KATHMANDU, NEPAL
+
+:43P: PARTIAL SHIPMENTS
+
+ALLOWED
+
+2437: TRANSHIPMENT
+
+ALLOWED
+
+:44E: PORT OF LOADING/AIRPORT OF DEPARTURE
+ANY PORT IN CHINA
+
+:44F: PORT OF DISCHARGE/AIRPORT OF DESTINATION
+VISAKHAPATNAM, INDIA
+
+:44C: LATEST DATE OF SHIPMENT
+
+260619
+
+:45A: DESCRIPTION OF GOODS AND/OR SERVICES
+
++SN DESCRIPTION QUANTITY UNIT PRICE
++ MODEL: CAPACITY (PCS) (USD/PCS)
++KENT BRAND ELECTRIC WATER HEATER
+
++1/ THERMOQ 10 10 LTRS 60 32.50
++2/ THERMOQ 15 15 LTRS 600 36.50
++3/ THERMOQ 30 30 LTRS 400 45.50
++4/ HEATWAVE 10 10 LTRS 100 29.00
++5/ HEATWAVE 15 15 LTRS 1000 31.00
++6/ POLAR 10 10 LTRS 60 32.00
++7/ POLAR 15 15 LTRS 1000 36.00
++8/ POLAR 30 30 LTRS 380 44.50
+
++9/ SPARE PARTS FOR DAMAGE/BREAKAGE IN TRANSIT
+
+AMOUNT
+(USD)
+
+1,950.
+21,900.
+18,200.
+
+2,900.
+31,000.
+
+1,920.
+36,000.
+16,910.
+
+FOC
+
+—™
+
+०७ standard
+charterecl
+
+--- Page 2 ---
+०७ standard
+
+charterecl
+
+~
++TOTAL FOB WUHU, CHINA (INCOTERMS 2020)
++AMOUNTING USD 130,780.00
++AS PER PROFORMA INVOINCE NO.: PI-KWHA-EOLWH20260330
++DATED 30-03-2026
++COUNTRY OF ORIGIN: CHINA
++HARMONIC CODE:8516.10.00
+:46A: DOCUMENTS REQUIRED
++1/ ONE ORIGINAL AND THREE COPIES OF SIGNED COMMERCIAL INVOICE.
++2/ FULL SET OF BILL OF LADING MARKED 'FREIGHT COLLECT' MADE OUT
+TO THE ORDER OF STANDARD CHARTERED BANK NEPAL LTD AND TO NOTIFY
+THE APPLICANT MENTIONING INTRANSIT TO KATHMANDU, NEPAL VIA
+
+DRYPORT CUSTOMS OFFICE, SIRSIYA, PARSA,
++3/ ONE ORIGINAL AND THREE COPIES OF CERTIFI
+
+NEPAL.
+CATE OF ORIGIN ISSUED
+
+MERCHANDISE TO BE OF
+
+AND THE NAME
+DOCUMENTS REQUIRED
+
+BY THE CHINA COUNCIL FOR THE PROMOTION OF INTERNATIONAL
+
+TRADE (CCPIT) OR BENEFICIARY CERTIFYING
+
+CHINA ORIGIN.
+
++4/ ONE ORIGINAL AND THREE COPIES OF PACKING LIST.
+
++5/ PHOTOCOPY OF INSPECTION CERTIFICATE IN ONE COPY ISSUED BY THE
+APPLICANT.
+
+:47A: ADDITIONAL CONDITIONS
+
++1/ THE NUMBER AND ISSUANCE DATE OF THIS CREDIT
+
+OF OUR BANK MUST BE QUOTED ON ALL DRAFTS AND
+
+UNDER THIS L/C.
+
++2/ ALL DRAFTS AND DOCUMENTS CALLED FOR IN TERMS OF THIS CREDIT
+
+MUST BE EXPRESSED IN ENGLISH.
+
++3/ DRAFTS AND DOCUMENTS ISSUED PRIOR TO L/C
+IS PROHIBITED.
++4/ COMMERCIAL INVOI
+OTHER DETAILS AS
+
+CE MUST
+
+STATE DESCRIPTION OF
+MENTIONED UNDER FIELD 45A ABOVE.
+
+ISSUANCE DATE
+
+GOODS AND ALL
+
++5/ A DISCREPANCY FEE OF USD 25.00 OR EQUIVALENT WILL BE
+
+LEVIED/DEDUCTED FROM THE PROCEEDS ON EACH SET
+PRESENTED, SHOULD T
+
+STANDARD CHARTERED BANK AT THE ADVISING LOCAT
+
+1
+
+OF DOCUMENTS
+
+E DOCUMENTS PRESENTED CONTAIN DISCREPANCY.
+
+ION HAS SPECIAL
+
+ARRANGEMENTS WITH US (ISSUING BANK)
+AND FINANCING UNDER THIS LC AT
+CHARGES
+
++ALL PARTIES TO THIS TRANSACTION ARE ADVISED
+BE UNABLE TO PROCESS A TRANSACTION THAT
+REGIONS, ENTITIES,
+UNITED NATIONS,
+
+THE UNITED STATES,
+
+FOR HANDLING OF
+ATTRACTIVE INTEREST
+
+DOCUMENTS
+RATES AND
+
+THAT BANKS MAY
+
+INVOLVES COUNTRIES,
+VESSELS OR INDIVIDUALS SANCTIONED BY
+THE EUROPEAN UNION,
+
+THE
+THE
+
+UNITED KINGDOM OR ANY OTHER RELEVANT GOVERNMENT AND/OR
+SUCH AUTHORITIES MAY REQUIRE
+
+FAILS OR
+
+REGULATORY AUTHORITY AND THAT
+
+DISCLOSURE OF INFORMATION.
+
+SCB IS NOT LIABLE IF IT, OR ANY OTHER PERSON,
+
+DELAYS TO PERFORM THE TRANSACTION OR DISCLOSES INFORMATION
+
+AS A RESULT OF ACTUAL OR POTENTIAL BREACH OF
+
+: 7110: CHARGES
+
+ALL BANK CHARGES OUTSIDE NEPAL ARE
+
+FOR THE ACCOUNT OF BENEFICIARY.
+
+248: PERIOD FOR PRESENTATION IN DAYS
+015/AFTER THE DATE OF SHIPMENT
+
+SUCH SANCTIONS.
+
+249: CONFIRMATION INSTRUCTIONS
+WITHOUT
+278: INSTRUCTIONS TO THE NEGOTIATING BANK
+
+--- Page 3 ---
+०७ standard
+
+charterecl
+~
+
+WE UNDERTAKE TO HONOUR COMPLYING PRESENTATION AT OUR COUNTER AS
+PER YOUR INSTRUCTION. DOCUMENTS PRESENTED MUST BE DESPATCHED TO
+STANDARD CHARTERED BANK NEPAL LTD, TRADE OPERATIONS, 2ND FLOOR,
+NAYA BANESHWOR, PO BOX 3990, KATHMANDU, NEPAL IN ONE LOT ON THE
+SAME DAY OF NEGOTIATION BY COURIER SERVICE.
+
+2722: SENDER TO RECEIVER INFORMATION
+
+SCBLEID/11303450-1 /
+
+
+
+===== DOCUMENT: Unknown Document (Certificate_of_Insurance.pdf) =====
+
+--- Page 1 ---
+Hanumansthan Anamnagar,Kathmandu
+Phone No.:015705766, 014510648 FAX No.: 01-5706776
+—— Email:siddharthapremier@spil.com.np, Website: www.siddharthapremier.com.np
+
+— || Siddhartha Premier Insurance Ltd.
+
+MARINE CARGO CERTIFICATE OF INSURANCE
+
+This is to certify that the company has issued Open policy to assured hereunder when they are entitled to declare and cover this
+declaration subject to terms, conditions and warranties here of:
+
+Open Policy No. KTM/24/25/MR-C/F/00574 Certificate/Declaration No. 096
+
+Assured Standard Chartered Bank Nepal Ltd, Head Office,E.O.L. PVT.LTD,Sanepa-2, Lalitpur,
+Bagmati
+
+Issuing Bank Name Standard Chartered Bank Nepal Ltd, Head Office
+Invoice Value Tolerence Incidental Duty Rate Total (NRs)
+
+Basic Of Valuation U 130,780.00 0.00 10.00 0.00 149.20 21,463,613.60
+
+SD
+Description of Goods On total Qnty 3600 of Kent Brand Electric Water Heater,Spare Parts For damage/Breakage In Transit,
+Full Description of Packing | Standard Packaging
+
+From Any port of China Warehouse of final Destination , Nepal
+
+Vessel/Carrier's Name By Sea/ Ocean Container thru. regd. Truck/ Lorry
+Exporter Midea Electric Trading ( Singapore) Co Custom Dryport Customs
+PTE.LTD Office, Sirsiya,Parsa,Nepal
+Buyer's Name Buyer's
+Address
+
+PI-KWHA-EOLWH20260330 Pl Date. | 30/03/2026
+
+Risk Covered under Institute Cargo Clauses A, Inland Transit (Rail or Road) Clauses C (Fire Risk ses , Notice of Cancellation and Automatic
+
+0 Termination Clauses, Institute Strikes Clauses (Cargo), Institute Strikes Clauses (Air Cargo), Strikes, Riots and Civil
+auses Commotions Clauses, Institute Classification Clauses, Extension of Cover Beyond Seven Days Clause, Theft, Pilferage and
+jon Delivery Clause
+
+Excess An excess clause of 0.50% on each conveyance.
+
+Total Cumulative Sum Insured : 990,000,000.00 | Total Cumulative Premium Rs. 2,376,000.00
+Total Sum Insured Already Declared . 905,610,628.00 Total Utilized Premium Rs. 2,173,465.47
+Balance Sum Insured Available . 84,389,372.00 Balance Premium Available Rs. 202,534.53
+Sum Insured for This Certificate ० 21,463,613.60 Utilized Premium for This Certificate Rs. 51,512.67
+Balance SI Available for Further Declarations , 62,925,758.40 | Balance Available for Further Declarations Rs. 151,021.86
+
+Per consignment Limit Rs. 86,772,000.00 Claim payable at kathmandu
+amage which may involve a claim under this policy, immediate notice must be served to the company's hea
+
+office at Kathmandu .
+
+Date: 07/04/2026 Issued time : 03:48:13 PM
+
+Issued By: Srijana Sharma (Wagle) For, Siddhartha Premier Insurance Ltd.
+
+“This is original insurance certificate generated by the system on the basis of
+declaration provided to the Company. Any requests for corrections or
+amendments must be submitted to the Company within seven (7) days from the
+date of issuance.”
+
+Authorized Signature
+
+
+===== DOCUMENT: Unknown Document (Commercial_invoice.pdf) =====
+
+--- Page 1 ---
+i. क ति MIDEA ELECTRIC TRADING (SINGAPORE) CO., PTE LTD
+idea
+
+158 CECIL STREET HEX07-01/02 SINGAPORE 069545
+
+COMMERCIAL INVOICE-
+
+MESSRS: — EOL PRIVATE LIMITED INVOICE NO: MDWRSEOLE260531
+DATE: 31/May/2026
+
+ADDRESS: WARD 2, SANEPA, LALITPUR SUB
+
+METROPOLITAN LALITPUR $
+NEPAL LC NO.: 477010408038-L
+
+PAN NO. 303668844
+EXIM CODE NO: 3036688440143NP
+TERM OF PAYMENT: LC at sight LC DATE: ~~ 08/Apr/2026
+
+QUANTITY | UNIT PRICE | AMOUNT
+
+TOTAL FOB WUHU, CHINA
+(INCOTERMS 2020)
+
+KENT BRAND ELECTRIC WATER HEATER
+SPARE PARTS FOR DAMAGE/BREAKAGE IN TRANSIT
+
+KENT BRAND ELECTRIC WATER HEATER
+MODEL: CAPACITY
+
+5/ HEATWAVE 15 15 LTRS
+
+4/ HEATWAVE 10 10 LTRS
+2/ THERMOQ 15 1S LTRS
+3/ THERMOQ 30 30 LTRS
+1/ THERMOQ 10 10 LTRS
+6/ POLAR 10 10 LTRS
+7/ POLAR 15 15 LTRS
+30 LTRS
+
+/ SPARE PARTS FOR DAMAGE/BREAKAGE IN TRANSIT > CINS Sen ee ROC a]
+
+LC NO.: 477010408038-L
+DATE OF ISSUE:260408
+ISSUING BANK : STANDARD CHARTERED BANK NEPAL LTD,TRADE
+OPERATIONS, IST FLR,NAYA BANESHWOR,PO BOX
+3990,KATHMANDU, NEPAL
+
+AMOUNTING USD 130,780.00
+
+AS PER PROFORMA INVOINCE NO.: PI-K WHA-EOLWH20260330
+DATED : 30-03-2026
+
+COUNTRY OF ORIGIN: CHINA
+
+HARMONIC CODE:8516.10.00
+
+DESCRIPTION OF GOODS AND ALL OTHER DETAILS AS MENTIONED UNDER FIELD 45A ABOVE.
+
+SAY TOTAL U.S. DOLLARS ONE HUNDRED AND THIRTY THOUSAND SEVEN HUNDRED AND EIGHTY
+ONLY
+
+Aa
+OPALSAMOUNT:! (SS, USD 130,780.00
+
+Remark: Please note the invoice number on the bank slip
+
+--- Page 2 ---
+MIDEA ELECTRIC TRADING (SINGAPORE) CO., PTE LTD
+
+(1069
+
+—— Customer PACKING LIST
+
+MESSRS: EOL PRIVATE LIMITED “INVOICE NO.: MDWRSEOLE260531
+DATE: 31 MAY 2026
+
+ADDRESS: WARD 2, SANEPA, LALITPUR SUB
+
+METROPOLITAN LALITPUR
+NEPAL LC NO.: 477010408038-L
+
+PAN NO. 303668844
+EXIM CODE NO: 3036688440143NP
+
+LC DATE: 08/Apr/2026
+
+ee
+(KGS)
+
+Measurement
+
+(CBM)
+
+Mark & Container No.|SN DESCRIPTION
+
+KENT BRAND ELECTRIC WATER HEATER
+SPARE PARTS FOR DAMAGE/BREAKAGE IN TRANSIT
+
+MODEL: CAPACITY
+S/HEATWAVE 1S = ISLTRS
+4/HEATWAVE10 10LTRS
+|2/ THERMOQ 15 IS LTRS
+3/ THERMOQ 30 30 LTRS
+9/ SPARE PARTS FOR DAMAGE/BREAKAGE IN TRANSIT
+1/ THERMOQ 10 10 LTRS
+2/ THERMOQ 15 1S LTRS
+6/ POLAR 10 1O LTRS
+'7/ POLAR 15 15 LTRS
+2/ THERMOQ 15 15 LTRS
+'8/ POLAR 30 30 LTRS
+IS LTRS
+
+1.GCXUS796399/40HQ
+
+2.MRKU4809790/40HQ
+
+3.MRSU8727918/40HQ
+
+4.TLLU4017800/40HQ
+
+LC NO.: 477010408038-L
+DATE OF ISSUE;260408
+ISSUING BANK : STANDARD CHARTERED BANK NEPAL LTD,TRADE
+OPERATIONS, 1ST FLR,NAYA BANESHWOR,PO BOX
+3990,KATHMANDU, NEPAL
+
+AS PER PROFORMA INVOINCE NO.: PI-K WHA-EOLWH20260330
+DATED : 30-03-2026
+
+COUNTRY OF ORIGIN: CHINA
+
+HARMONIC CODE:8516.10.00
+
+TOTAL:
+
+TOTAL PACKED IN THREE THOUSAND SIX HUNDRED AND FIVE (3605)
+CARTONS ONLY
+
+
+--- Page 3 ---
+Shipper
+MIDEA ELECTRIC TRADING (SINGAPORE) CO., PTE LTD
+158 CECIL STREET HEXO7-01/02
+
+SINGAPORE 069545
+
+‘SINOOCEAN GROUP LTD.
+
+COMBINED TRANSPORT
+. BILLOFLADING |
+
+(Mi 8/1 No.
+
+Consignee (Complete name and address)
+TG THE GRDER OF STANDARD CHARTERED BANK NEPAL LTD
+
+SHIPPED on board in aparent good order and condition (unless
+otherwise indicated) the goods or packages specified herein and to be
+
+Notify Party (Complete name and address)
+
+EOL PRIVATE UMITED discharged at the mentioned port of discharge or as near thereto as the
+~ | WARD 2, SANEPA, LAUTPUR SUB vessel may safely get and be always afloat.
+METROPOLITAN LALITPUR NEPAL The weight, measure, marks and numbers, quality, contents and
+PAN NO. 303668844 con arene particulars furnished by the Shipper, are not checked by the
+farrier on ;
+EXIM CODE NO! 30366884401 43NP The Shipper, Consignee and the Holder of this Bill of Lading hereby
+expressly accept and agree to all printed, written or stamped provisions,
+Pre-carriage by Place of receipt exceptions and conditions of this Bill of Lading, including those on the
+७ IN WITNESS whereof the number of original Bills of Lading stated
+usdnanabtes Port of loading Sine been signed, one of which being accomplished, the other(s)
+JIAXING6S V.2624 WUHU,CHINA
+Port of discharge Place of delivery Freight payable at Number of original Bs/L
+VISAKHAPATNAM, INDIA _ BIRGUNJ, NEPAL
+. Number and kind of packages Description of goods Gross weight (kgs.) Measurement (M?
+3605CARTONS 40776.80KGS 243.200CBM
+N/M a SHIPPER'SLOAD & COUNT & SEAL टी aes
+4X40'HQ (F.C.L) S.T.CCY/CY
+KENT BRAND ECECTRIC WATER HEATER
+SPARE PARTS FOR DAMAGE/BREAKAGE IN TRANSIT
+HARMONIC CODE:8516.10.00° *
+LC NO: 477010408038-L ;
+DATE GF ISSUE:260408 — \ )
+ISSUING BANK : STANDARD\CHARTERED BANK NEPAL LTD, TRADE
+OPERATIONS; 1ST FLA, NAYA BANESHWOR, PO BOX
+3990, KATHMANDU, NEPAL
+FREIGHT COLLECT |
+- SINTRANSIT.TO KATHMANDU, NEPAL VIA ORYPORT CUSTOMS OFFICE,
+“SIRSIYASPARSA, NEPAL. \
+14.DAYS FREE DETENTION AT DESTINATION
+CNTR NO,; ५
+TLLU4017800/ML-CN8317833/40'HQ/818CARTONS/10500,30KGS/63.390CBM SHIPPED ON BOARD
+MRSU8727918/ML-CN8321913/40'HO/1200CARTONS/11 664, OOKGS/64, 530CBM JUN 09,2026 -
+MRKU4809790/ML-CN8317 821/40'HQ/7 SSCARTONS/97 93,30KGS/65,980CBM FREIGHT COLLECT (4
+
+GCXU5796399/ML-CNS317 83 5/40'HO/832CARTONS/8819. 20KGS/49.300CBM
+SAY TOTAL:FOUR FORTY FT.HQ CONTAINERS ONLY.
+ABOVE PARTICULARS FURNISHED BY SHIPPER
+
+Freight and छ
+
+IN WITNESS whereof the number of original Bills of Lading
+
+H.R. LOGISTICS
+6TH FLOOR, 16, UNIT N612,DIAMOND HERITAGE stated above have been signed, one of which being accom
+STRAND ROAD, FAIRLEY PLACE plished, the other(s) to be void
+
+KOLKATA> 700001
+
+Place and date of issue
+SHENZHEN,CHINA — JUN 09,2026
+
+Signgd for > ॥) behalf of the Carrier
+
+Eh Eh ih Ue eH एः
+/ BMAP, %
+aioe
+
+een eee नक;
+
+
+--- Page 4 ---
+ORIGINAL
+
+T.Exporter
+WUHU-MIDEA KITCHENS: BATH APPLIANCES MFG. COULTD
+MD INDUSTRY CIT¥ WANCHUN ROAD; EAST AREA OF WEDA, WOH CITY, ANHUT
+PROVINCE, CHINA VIA-MIDEA ELECTRIC TRADING (SINGAPORE) CO» PTE-LTD.
+TSS CECIESTREET HEXO?-01/02 SINGAPORE 069545,
+
+2:
+
+EOL PRIVATE LIMITED
+
+WARD 2-SANEPA, LALITPUR SUB
+METROPOLITAN LALIT PUR NEPAL
+PAN:NO: 303688844
+
+EXHM4 CODE NO: 3036688440143NP
+
+3.\Means of transport and route
+FROM WUHUSCHINA TO BIRGUNS.NEPAL VIA VISAKHAPATNAM, INDIA BYSEA
+
+7.Numberand kindof packages;description of goads
+
+THREE THOUSAND S}X: HUNDRED (3600) CARTONS OF ELECTRIC
+
+WATER HEATER
+
+FIVE (5): CARTONS OF SPARE PARTS
+LO NO 2477010408038:
+DATE-OP ISSUE:260408
+
+CERTIFICATE OF ORIGIN
+OF
+THE PEOPLE'S REPUBLIC OF CHINA
+
+Certificate
+of Origin
+
+ON1200 167
+
+CHINA COUNCIL FOR THE
+PROMOTION OF INTERNATIONAL
+TRADEWS CHINA CHAMBER OF
+INTERNATIONAL COMMERCE
+
+ISSUED-RETROSPECTIVELY
+
+VERIEY URL-HETPICHECK ECOCCPIT NET
+8,H.S.Code 9. Quantity
+
+“85461000 3600-CARTONS
+
+set *
+
+SCARTONS
+
+कि
+
+ISSUING BANK) STANDARD CHARTERED BANK NEPALLTD, TRADE
+
+OPERATIONS, -IST-FERNAYA BANESHWOR:PO BOX
+
+S996, KATHMANDU NEPAL
+
+AS PER: PRORQRMA INVOINCE NO.: Rb WHA Sean 6590
+
+DATED ;30-03>2026
+MERCHANDISE TO BEORCHINA GRIGIN
+
+TOTAL: PACKEGIN FHREET HOUSAND SIX HUNDRED AND FIVE
+
+3605)-CARTONS ONLY.
+
+correct, that छ the goods were produced se
+Rules of Ongirrot the-People’s Republic |!
+
+WUHU.CHINA ~ JUN-15.2026
+
+teehee 900 ne rene ane 2 90 4 ० neceneenns 0 4 ene ante n steno ewan ee 901110010 001 0110 ७9 010 ७ 940७ -4 9000000.
+
+Place and date. sighature and stamp of authorized signatory
+
+12.Certification
+itis hereby certified that the declaration by the exporter is correct.
+
+(७ 09०० enn en ens teeter wens nnn eeeerwenen
+
+Place and date, signaturé-and stamp of certifying authority
+
+Page 1 of 1
+
+
+===== DOCUMENT: Policy Document (Policy.PDF) =====
+
+--- Page 1 ---
+Hanumansthan Anamnagar,Kathmandu
+
+: Phone No.:015705766, 014510648 FAX No.: 01-5706776
+Yess  Email:siddharthapremier@spil.com.np, Website:
+www.siddharthapremier.com.np
+
+PAN No.:500060418 MARINE CARGO DECLARATION
+
+Registration No.:
+
+We Siddhartha Premier Insurance Ltd. (hereinafter called the Insurer) hereby agree in consideration of the payment to us by or on behalf of the
+insured of the Premium specified in the schedule to insure against loss, damage, liability or expenses to the extent and in the manner herein provided.
+Schedule of Poli Date of Questionnaire : 26/06/2025
+
+Prev. Policy no. :
+
+Policy No. : KTM/24/25/MR-C/F/00574
+
+Issuing Office : Head Office: Siddhartha Premier Insurance Bhawan,
+Babarmahal, Hanumansthan, P. 0. Box 24876, Kathman
+
+DO Code : 00000
+
+Agent Code : 20147
+
+Agent LIC No, : 21/156
+
+Issue Date : 02/07/2025 Declaration Expiry Date :01/07/2026
+
+Issue At : Head Office
+
+Tel :01-5705766
+
+Name and Address of Insured :
+E.0.L. PVT.LTD,
+Sanepa-2, Lalitpur, Bagmati
+
+Customer Code ; SIL/01/18/19/101000359760 KFN=1/002869
+Tel/Fax/E-mail : 9841408050
+
+Bill No. : _ KTM/017880 Bill Date : 02/07/2025 Receipt No. : KTM242518760
+Marine Cargo Normal Cover NPR 600,000.00
+ADD : Marine SRCC Cover NPR 0.00
+LESS : Direct Business Discount NPR 0.00
+Annual Premium 600,000.00
+
+TOTAL PREMIUM NPR 600,000.00
+ADD : Value Added Tax NPR 78,000.00
+ADD : Stamp Duty NPR 20.00
+TOTAL AMOUNT NPR 678,020.00
+Total Premium In Words : Six Lakh Seventy Eight Thousand Twenty Only
+
+Total Sum Insured In Words : Fifty Crore Rupees Only
+RISK DETAILS
+
+1 Voyage From ; China/ Indonesia, Malaysia, Hongkong
+
+To : Any Place in Nepal, in transit to Kolkata / Haldia/Visakhapatnam, India via ICD/ICP Birgunj/ Biratnagar/
+
+Bhairahawa Customs Office (Warehouse to Warehouse)
+
+Mode of Transit ; By Sea/ Ocean Container thru. regd. Truck/ Lorry
+BL/CN/AWB/RR No.
+Terms of Sale :
+Basis of Valuation ‘Invoice Value + 0.00 %(Tolerance) + 0.00 %(Incidental Cost) + 0.00%(Duty)+ 0.00%
+_Amount in Foreign Curr__:_ NPR_500,000,000.00 + 0.00% + 0.00% + 0.00% ++@1,00W0________________a in Foreign Curr ; NPR 500,000,000.00 + 0.00% + 0.00% + 0.00% ++@1.0000
+Insurance Matter On Various Kind of Electrical/ Electronic Items , Spare Parts, their related accessories packed in Cartoons / Pallets / Boxes /
+
+Standard packaging . # Policy issued on Declaration basis .# Limit per Conveyance NPR 27,500,000.00 # Insured is bound to
+declared each and every consignment before dispatch of insured particulars # Sum Insured as per declaration shall be :
+Invoice Value / LC Value+Tolerance+10% Incidental cost # Cancellation Clause : 7 days notice from either side.
+
+S.No. Commodity Curr. Sum Insured L/C No L/C Date Invoice No Invoice Date
+1 As Above NPR 500,000,000.00 To be declared
+Excess/Deductible :
+
+An excess clause of 0.50% on each conveyance.
+
+SPECIAL CONDITION AND WARRANTIES
+Term of Insurance : Subject to the following clauses listed and attached hereto and printed warranties below
+Clauses
+
+1.Institute Cargo Clauses A, 7.Inland Transit (Rail or Road) Clauses A, 9.Institute War Clause (Cargo), 10.Institute Strikes Clauses (Cargo), 13.Theft,
+Pilferage & Non-delivery Clauses, 14.Strike, Riots & Civil-commotion Clauses, 17.Institute Radioactive Contamination Exclusion Clauses,
+
+18.Institute Classification Clauses
+Claim Intimation & Survey : Surveyor Name:
+
+Claim Payable at / by: THE COMPANY'S HEAD OFFICE क मेलाका
+
+The Attached &/Or Printed Overleaf Clauses and endorsement from the part of the Policy. Transit Limit: 27,500,000.00
+
+In witness whereof the undersigned be duly authorised by the Directors of the Company and on behalf of the Company has hereunto set his hand at on
+
+02/07/2025. Insurance Policy shall be effective only after payment of premium.
+
+Rating Reference: (3 - Electric& Electronic Items (other than specified in other points) including watch, External Data Media, Computers and
+Accessories
+
+‘An excess clause of 0.50% on each conveyance. The Premium as shown above is 50% of the actual premium, which is actually an advance as per 37(3) of
+
+parichhed -7 of Marine Directive . Insured is also bound to increase the remaining portion of the the premium (i.e 25 crore of Sum Insued) within the
+currency of the policy period .
+
+As per Beema Act. 2079 Sec. 64, Risk is assumed on receipt of premium only. ॥ For and on behalf of
+
+Siddhartha Premier Insurance Ltd. C
+Issued By : Rasala Tandukar Approved By : Sarala Prasai
+Name : ४००
+Designation :
+
+FBO
+
+--- Page 2 ---
+=e , Siddhartha Premier Insurance Ltd.
+4 Head Office: Hanumansthan Anamnagar,Kathmandu
+| Phone No.:015705766014510648 Fax No.:01-5706776
+heuer Email No.:siddharthapremier@spil.com.np
+ae
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+I i (<a
+
+DEPARTMENT: Marine
+
+Attaching to and forming part of Policy No........ KTM/24/25/MR-C/E/00974
+
+Endorsement NO.s.cecescscecesescecesssecseseseeeeeeseeeeeees Date : १2:701:2025..............,,०१०१०१०१११०१०१११०११
+
+INSURED : Endorsement No. : KTM/24/25/MR-C/E/00141
+Standard Chartered Bank Nepal Ltd., F.0./ Agent : 00000/20147
+
+Head office Issued At
+Global IME Bank Ltd., Head Office, Kathmandu, Everest Issued Date
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+Head Office
+: 15/07/2025
+
+REFUND PREMIUM
+
+Premium Rs. 0.00
+RSD, MD & Terr. Rs.
+Third Party : 0.00
+
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+ee ee जज
+
+बि बि नि ADDITIONAL PREMIUM
+Risk and Situation : लि
+Premium Rs. ६
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,| RSD, MD & Terr. Rs.
+
+their related accessories packed in Cartoons / Pallets / Third Party 0.00
+Boxes / Standard packaging . # Policy issued on Deciaration
+basis .# Transfer Fee टु 0.00
+Sub Total Rs.
+13.00% VAT Rs.
+Stamp Rs.
+Total Rs. :
+Sum Insured Rs. : 500,000,000.00 Period From 15/07/2025 Till 01/07/2026
+Vat Inv ‘VatInvNo: 0 CReceiptNos CCC (tii le : Receipt No. : Receipt Date :
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that consolidated bank under above
+mentioned policy has been added and insured name has been read as under instead of previously stated therein.
+
+Insured : M/s Standard Chartered Bank Nepal Ltd / Global IME Bank Ltd / Everest Bank Ltd / Nepal SBI Bank Ltd
+
+A/c : E.0.L Pvt. Ltd
+
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier Insura a Ltd.
+subject to realization"
+
+Policy Issued By ; — Rasala Tandukar Authorized Signature a
+
+Policy Approved By :  Sajani Poudel Name १ [0 / ॥
+
+Designation
+क? hg
+printed On: 8/21/2026 At: 10:12:51AM
+
+(TS,
+{2 VA a a ट
+\% ७, // | $
+
+\ ३५० WY हे > y) /
+
+२॥96101 SID: Printed By:Ram Luitel
+
+
+--- Page 3 ---
+=a, Siddhartha Premier Insurance Ltd.
+८, | Head Office: Hanumansthan Anamnagar,Kathmandu
+| Phone No.:015705766014510648 Fax No.:01-5706776
+Email No.:siddharthapremier@spil.com.np
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+a
+
+DEPARTMENT: Marine
+
+Endorsement No. : KTM/25/26/MR-C/E/00007
+F.0./ Agent : 00000/20147
+
+Issued At : Head Office
+Issued Date : 04/08/2025
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.O:k., PVT.LTD;
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+
+Third Party : 0.00
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+ADDITIONAL PREMIUM
+
+a $=
+
+Risk and Situation :
+
+Premium Rs.
+
+RSD, MD & Terr. Rs.
+
+Third Party : 0.00
+Transfer Fee $ 0.00
+Sub Total Rs.
+
+13.00% VAT Rs.
+
+Stamp Rs.
+
+Total Rs.
+
+Sum Insured Rs. : 500,000,000.00 Period From 04/08/2025 Till 01/07/2026
+Watinv Nor CReceiptNo FO CCCLCLUC Inv No. : Receipt No. : Receipt Date :
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+basis .#
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that Limit per conveyance under above
+mentioned policy has been amended and read as Rs. 50,000,000.00 instead of previously stated therein.
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier Insurance Ltd.
+subject to realization" ,
+
+Authorized Signat :
+Policy Issued By : Rasala Tandukar uthorized Signature é
+। Name sura Vk
+Policy Approved By : Sarala Prasai ZN nes YA
+Designation //< IN १
+
+2996101 = SID: Printed By:Ram Luitel [दए पु On: 8/21/2026 At: 10:04:11AM
+
+. Na 900
+क 2200) We
+ae
+
+--- Page 4 ---
+“=, Siddhartha Premier Insurance Ltd.
+% Head Office: Hanumansthan Anamnagar,Kathmandu
+= Phone No.:015705766014510648 Fax No.:01-5706776
+
+bec Email No.:siddharthapremier@spil.com.np
+a
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Attaching to and forming part of Policy No........ ।1४/24/25/112:0/1/00574...........:::-११०१११११""
+
+Endorsement 80...11//25/ 26/112-0/६/00002.......... Date ;02-Jul2025 |.
+INSURED :
+
+Endorsement No.
+F.0./ Agent
+Issued At
+
+Issued Date
+
+Standard Chartered Bank Nepal Ltd.,
+
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+Premium Rs.
+
+Third Party
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+Risk and Situation :
+
+Premium Rs.
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+basis .#
+
+Third Party
+Transfer Fee
+Sub Total Rs.
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+Sum Insured Rs. : 500,000 000.00 Period From 21/09/2025
+‘Vat Inv No.:kTMio2819 भि ee Inv No. : KTM/002819 Receipt No. : KTM252602964
+
+Endorsement Wording :
+
+making total sum insured of Rs. 500,000,000.00.
+
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for,
+subject to realization" ॥
+
+Policy Issued By :  Rasala Tandukar क
+ame
+
+Pagelofi SID:
+
+RSD, MD & Terr. Rs.
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 18.09.2025,
+
+premium for remaining portion of sum insured i.e. Rs. 250,000,000.00 under above mentioned policy has been charged to the insured
+
+: 00000/20147
+: Head Office
+: 21/09/2025
+
+ee :
+ADDITIONAL PREMIUM
+
+RSD, MD & Terr. Rs.
+
+ee ———
+
+_
+
+_  तरमागलसुहरनसल्यल्तहरुकल्य
+
+Till
+
+Receipt Date :09/21/2025
+
+In consequence to the above, additional premium of Rs. 678,000.00 including VAT is hereby charged to the insured
+
+Authorized Signature
+
+Siddhartha we I as Ltd.
+Qe
+
+Policy Approved By :  Sajani Poudel
+
+Printed By:Ram Luitel ।
+
+REFUND PREMIUM
+
+: KTM/25/26/MR-C/E/00038
+
+0.00
+
+600,000.00
+
+0.00
+0.00
+600,000.00
+
+78,000.00
+
+678,000.00
+01/07/2026
+
+ed On: 8/21/2026 At: 10:04:26AM
+
+--- Page 5 ---
+Phone No.:015705766014510648 Fax No.:01-5706776
+
+nt | Siddhartha Premier Insurance Ltd.
+3] Email No.:siddharthapremier@spil.com.np
+
+| } Head Office: Hanumansthan Anamnagar,Kathmandu
+Beer
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+a nnn
+
+DEPARTMENT: Marine
+
+INSURED : Endorsement No. : KTM/25/26/MR-C/E/00062
+
+Standard Chartered Bank Nepal Ltd., BO.) Agent : 00000/20147
+Head office Issued At : Head Office
+Global IME Bank Ltd., Head Office, Kathmandu, Everest Issued Date : 30/11/2025
+
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.O.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs. : 0.00
+RSD, MD & Terr. Rs.
+Third Party डु 0.00
+13.00% VAT Rs.
+Stamp Rs.
+Total Rs. :
+—— = CS. C:C:C~C<;7;73} hCS<S*~:;*F ADDITIONAL PREMIUM
+
+Risk and Situation : न
+Premium Rs.
+
+600,000.00
+On Various Kind of Electrical/ Electronic Items , Spare Parts,| RSD, MD & Terr. Rs.
+
+their related accessories packed in Cartoons / Pallets / Third Party ; 0.00
+
+Boxes / Standard packaging . # Policy issued on Declaration
+
+basis .# Transfer Fee ;_ उ उ उ उ उ उ ०.0
+Sub Total Rs. : 600,000.00
+13.00% VAT Rs. : 78,000.00
+Stamp Rs. १
+Total Rs. : 678,000.00
+
+Sum Insured Rs. : 750,000,000.00 Period From 30/11/2025 Till 01/07/2026
+
+Vat Inv एमए No.:kTMio0ss64 २ ८९८७१६३०: KINA’ सति त veer ३ KTM/006564 Receipt No.: ।(11252606831 Receipt Date :11/30/2025
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 27.11.2025,
+sum insured under above mentioned policy has been increased By Rs. 250,000,000.00 , making total sum insured of Rs. 750,000,000.00.
+In consequence to the above, additional premium of Rs. 678,000.00 including VAT is hereby charged to the insured
+
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier Beis e Ltd.
+
+subject to realization" \
+Authorized Signature :
+
+Policy Issued By :  Rasala Tandukar 1 0०2७ रण é
+
+Policy Approved By :  Sarala Prasai 9190 ——._ // A
+Designation 2. \nSUlang}
+
+Pagelofi SID: Printed By:Ram Luitel ited on: 8/21/2026 At: 10:04:43AM
+
+\
+
+--- Page 6 ---
+<=— , Siddhartha Premier Insurance Ltd.
+टु, Head Office: Hanumansthan Anamnagar, Kathmandu
+Phone No.:015705766014510648 Fax No.:01-5706776
+aac EMail No.:siddharthapremier@spil.com.np
+ST
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Endorsement ३0. : KTM/25/26/MR-C/E/00081
+F.0./ Agent : 00000/20147
+
+Issued At : Head Office
+Issued Date : 05/01/2026
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+
+Third Party : 0.00
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+ON
+
+Risk and Situation : ADDITIONAL PREMIUM
+
+Premium Rs.
+
+RSD, MD & Terr. Rs.
+
+Third Party : 0.00
+Transfer Fee : 0.00
+Sub Total Rs.
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+basis .#
+
+13.00% VAT Rs.
+Stamp Rs.
+Total Rs. :
+Sum Insured Rs. : _750,000,000.00 Period From 05/01/2026 Till 01/07/2026
+VatInvNo? (Receipts CC Inv No.: Receipt No. : Receipt Date :
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that Limit per conveyance under above men
+tioned policy has been amended and read as Rs. 8,67,72,000.00 instead of previously stated therein.
+
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Ye Inéura i Ltd.
+subject to realization" ॥ (
+
+॥ Authori i :
+Policy Issued By :  Srijana Sharma (Wagle) i maciced क पाम ANS,
+Policy Approved By :  Sarala Prasai a
+
+Designation
+
+— यिद
+Page 1 of 1 SID: Printed By:Ram Luitel हे ed On: 8/21/2026 At: 10:04:56AM
+
+--- Page 7 ---
+==q, Siddhartha Premier Insurance Ltd.
+| Head Office: Hanumansthan Anamnagar,Kathmandu
+
+| ७, Phone No.:015705766014510648 Fax No.:01-5706776
+ee Email No.:siddharthapremier@spil.com.np
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Endorsement ऐ०. : KTM/25/26/MR-C/E/00080
+F.0./ Agent : 00000/20147
+
+Issued At : Head Office
+Issued Date : 05/01/2026
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+Third Party १ 0.00
+
+13.00% VAT Rs.
+Stamp Rs.
+Total Rs. र
+TT ADDITIONAL PREMIUM
+Risk and Situation : ;
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+Third Party ४१ 0.00
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+
+basis .# Transfer Fee : 0.00
+Sub Total Rs.
+13.00% VAT Rs.
+Stamp Rs.
+Total Rs. :
+Sum Insured Rs. :__750,000,000.00 Period From 05/01/2026 Till 01/07/2026
+5 ns नन सति ति Inv No.: Receipt No. : Receipt Date :
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that Limit per conveyance under above men
+tioned policy has been amended and read as Rs. 7,23,10,000.00 instead of previously stated therein.
+
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier 1 urance Ltd.
+subject to realization" h - ।५
+Authori ignature |.
+Policy Issued By :  Srijana Sharma (Wagle) का न ae
+Policy Approved By :  Sajani Poudel = . 4
+Designation ~; \nsulann SS ८” -
+
+Pageiofi_ SID: Printed By:Ram Luitel ited On: 8/21/2026 At: 10:05:07AM
+
+--- Page 8 ---
+<==, , Siddhartha Premier Insurance Ltd.
+% Head Office: Hanumansthan Anamnagar,Kathmandu
+—~ Phone No.:015705766014510648 Fax No.:01-5706776
+hia न Email No.:siddharthapremier@spil.com.np
+Be
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+INSURED : Endorsement No.
+
+: KTM/25/26/MR-C/E/00093
+F.0./ Agent : 00000/20147
+
+Issued At : Head Office
+Issued Date : 03/02/2026
+
+Standard Chartered Bank Nepal Ltd.,
+
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+
+Risk and Situation :
+
+Third Party : 0.00
+13.00% VAT Rs.
+Stamp Rs.
+Total Rs. :
+——————_— _w__ewv_—v ADDITIONAL PREMIUM
+
+Premium Rs. 240,000.00
+
+On Various Kind of Electrical Electronic Items , Spare Parts, | RSD, MD & Terr. Rs.
+
+their related accessories packed in Cartoons / Pallets / Third Party ‘ 0.00
+
+Boxes / Standard packaging . # Policy issued on Deciaration
+
+basis. .# Transfer Fee : 0.00
+Sub Total Rs. : 240,000.00
+13.00% VAT Rs. 7 31,200.00
+Stamp Rs. :
+Total Rs. : 271,200.00
+
+Sum Insured Rs. : 850,000,000.00 Period From 03/02/2026 Till 01/07/2026
+
+"Vat Inv 90.:1110080831. भिन Se Inv No. : KTM/008831 Receipt No. : KTM252609197 Receipt Date 02/03/2026
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 02.02.2026,
+sum insured under above mentioned policy hasbeen increased By Rs. 100,000,000.00 , making total sum insured of Rs. 850,000,000.00.
+In consequence to the above, additional premium of Rs. 271,200.00 including VAT is hereby charged to the insured.
+All other terms, limitations and conditions will remain the same.
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha “710 |” Ltd.
+
+subject to realization"
+Authorized Signature
+
+Policy Issued By :  Rasala Tandukar -
+Policy Approved By :  Sajani Poudel am "
+Designati :
+Pagelofi 510: Printed By:Ram Luitel Q y AN N 4) inted On: 8/21/2026 At: 10:05:25AM
+|“ ३) \\ १
+€ Ly he . }
+
+Gu
+
+ति f
+\ }
+
+\2 ed
+
+न
+2, 0९ NY a
+
+7,
+Man
+
+d/
+
+ES
+
+Se
+
+WN
+
+--- Page 9 ---
+Email No.:siddharthapremier@spil.com.np
+
+।छ
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.O.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+Risk and Situation :
+
+their related accessories packed in Cartoons / Pallets /
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it
+
+In consequence to the above, additional premium of Rs. 189,840
+All other terms, limitations and conditions will remai
+
+"This policy shall be effective on receipt of Premium in Cash and
+subject to realization"
+
+Policy Issued By :  Rasala Tandukar
+Policy Approved By :  Sajani Poudel
+
+Pagelofi ९0: Printed By:Ram Luitel
+
+Head Office: Hanumansthan Anamnagar,Kathmandu
+
+ee Siddhartha Premier Insurance Ltd.
+| Phone No.:015705766014510648 Fax No.:01-5706776
+
+Se ADDITIONAL PREMIUM
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,| RSD, MD & Terr. Rs.
+
+Boxes / Standard packaging . # Policy issued on Declaration
+
+basis .# Transfer Fee : 0.00
+Sub Total Rs. 0 168,000.00
+13.00% VAT Rs. : 21,840.00
+Stamp Rs. :
+Total Rs. ३ 189,840.00
+Sum Insured Rs. : 920,000,000.00 Period From 29/03/2026 Till 01/07/2026
+Vat Inv VatInv No.:KTw010835 ——(RecelptNo.: Kose erre——— : KTM/010835 Receipt No.: KTM252611284 Receipt Date :03/29/2026
+
+sum insured under above mentioned policy hasbeen increased By Rs. 70,000,000.00 , making total sum insured of Rs. 920,000,000.00.
+
+Endorsement No. : KTM/25/26/MR-C/E/00109
+
+F.0./ Agent > 00000/20147
+Issued At : Head Office
+
+Issued Date : 29/03/2026
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+
+Third Party : 0.00
+13.00% VAT Rs.
+
+Stamp Rs.
+Total Rs.
+Premium Rs. : 168,000.00
+
+Third Party ८ 0.00
+
+is hereby declared and agreed that as per insured email dated 26.03.2026,
+
+.00 including VAT is hereby charged to the insured.
+n the same.
+
+/or Cheque 7; Siddhartha Premier Ins ai ale
+
+Authorized Signature : é
+Name : १०
+
+Leg nsuran |, / 0
+Designatior al
+
+Ws
+
+--- Page 10 ---
+“==<q, Siddhartha Premier Insurance Ltd.
+} Head Office:Hanumansthan Anamnagar, Kathmandu
+दुद Phone No.:015705766014510648 Fax No.:01-5706776
+
+eee «EMail No.:siddharthapremier@spil.com.np
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Endorsement No. : KTM/25/26/MR-C/E/00114
+
+F.0./ Agent : 00000/20147
+Issued At : Head Office
+Issued Date : 07/04/2026
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.O.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+
+Third Party 0.00
+13.00% VAT Rs. $
+
+Stamp Rs. :
+
+Total Rs. ८
+5 है Se ADDITIONAL PREMIUM
+
+Risk and Situation :
+Premium Rs. ३ 168,000.00
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,| RSD, MD & Terr. Rs.
+
+their related accessories packed in Cartoons / Pallets / Third Party दर 0.00
+
+Boxes / Standard packaging . # Policy issued on Declaration
+
+basis .# Transfer Fee ;_ _____०.00
+Sub Total Rs. : 168,000.00
+13.00% VAT Rs. : 21,840.00
+Stamp Rs. :
+Total Rs. 4 189,840.00
+
+Sum Insured Rs. : _990,000,000.00 Period From _07/04/2026 Till 01/07/2026
+
+‘Vat Inv No.:KTM011093_ (Receipt? OE Inv No. : KTM/011093 Receipt No.: = KTM252611554 Receipt Date :04/07/2026
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 05.04.2026,
+sum insured under above mentioned policy hasbeen increased By Rs. 70,000,000.00 , making total sum insured of Rs. 990,000,000.00.
+In consequence to the above, additional premium of Rs. 189,840.00 including VAT is hereby charged to the insured.
+
+All other terms, limitations and conditions will remain the same.
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier vant Ltd.
+
+subject to realization”
+
+Authorized Signature
+403 000 2 /०;
+
+fs र
+
+Policy Issued By ;  Rasala Tandukar
+Policy Approved By :  Sajani Poudel
+
+Name
+
+Designati9
+
+Pagelofi = SID: Printed By:Ram Luitel
+
+--- Page 11 ---
+<<, Siddhartha Premier Insurance Ltd.
+4 Head Office: Hanumansthan Anamnagar,Kathmandu
+| ae Phone No.:015705766014510648 Fax No.:01-5706776
+eee «Email No.:siddharthapremier@spil.com.np
+Si
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Endorsement No. : KTM/25/26/MR-C/E/00122
+F.O./ Agent > 00000/20147
+Issued At : Head Office
+
+Issued Date : 23/04/2026
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+Third Party $ 0.00
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+oe  . —
+
+बि र 2 ADDITIONAL PREMIUM
+Risk and Situation : ‘
+
+Premium Rs.
+RSD, MD & Terr. Rs. :
+
+Third Party : 0.00
+Transfer Fee : 0.00
+Sub Total Rs. : 240,000.00
+13.00% VAT Rs. : 31,200.00
+Stamp Rs.
+
+Total Rs. : 271,200.00
+Sum Insured Rs. : _1,090,000,000.00 Period From 23/04/2026 Till 01/07/2026
+४१:77 No.:KTMiOtI796 ——ReceiptNos KI Inv No. : KTM/011796 Receipt No.: = KTM252612280 Receipt Date :04/23/2026
+
+Endorsement Wording :
+
+240,000.00
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+basis .#
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 05.04.2026,
+sum insured under above mentioned policy hasbeen increased By Rs. 100,000,000.00 , making total sum insured of Rs. 1090000000.00
+In consequence to the above, additional premium of Rs. 271200.00 including VAT is hereby charged to the insured.
+
+All other terms, limitations and conditions will remain the same.
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier 7 ५ se
+
+subject to realization"
+
+Authorized Si :
+Policy Issued By :  Srijana Sharma (Wagle) aes pean SA we
+Policy Approved By :  Sajani Poudel Namie ०, त. ५
+
+Design on /“
+
+Page lofi
+
+SID: Printed By:Ram Luitel
+
+--- Page 12 ---
+Head Office: Hanumansthan Anamnagar,Kathmandu
+Phone No.:015705766014510648 Fax No.:01-5706776
+
+<=, Siddhartha Premier Insurance Ltd.
+॥| Bere | . . . .
+
+४ Email No. -siddharthapremier@spil.com.np
+eee
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Endorsement No. : KTM/25/26/MR-C/E/00130
+F.0./ Agent : 00000/20147
+
+Issued At : Head Office
+Issued Date : 12/05/2026
+
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+Third Party ६ 0.00
+13.00% VAT Rs.
+
+Stamp Rs.
+
+Total Rs.
+
+Se ३
+त A बि ADDITIONAL PREMIUM
+Risk and Situation :
+
+Premium Rs.
+
+RSD, MD & Terr. Rs.
+Third Party : 0.00
+Transfer Fee : 0.00
+
+Sub Total Rs. ; 168,000.00
+13.00% VAT Rs. टु 21,840.00
+
+168,000.00
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+basis .#
+
+Stamp Rs.
+Total Rs. : 189,840.00
+Sum Insured Rs.: _1,160,000,000.00 Period From _ 12/05/2026 Till 01/07/2026
+Wat inv NorkTwoi2613 शि oe Inv No. : KTM/012413 Receipt No. : KTM252612934 Receipt Date :05/12/2026
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 11.05.2026,
+sum insured under above mentioned policy has been increased By Rs. 70,000,000.00 , making total sum insured of Rs. 1,160,000,000.00
+In consequence to the above, additional premium of Rs. 189,840.00 including VAT is hereby charged to the insured.
+
+All other terms, limitations and conditions will remain the same.
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier 7) ancé Ltd.
+subject to realization"
+
+Authorized Sig nature
+Policy Issued By ; Rasala Tandukar हा on YA ye
+Policy Approved By :  Sajani Poudel ame " ~ ८2 रट \
+
+C
+
+Printed On: 8/21/2026 At: 10:09:24AM
+
+Design ra
+
+Pagelofi SID: Printed By:Ram Luitel
+
+--- Page 13 ---
+| Siddhartha Premier Insurance Ltd.
+[5 Head Office: Hanumansthan Anamnagar,Kathmandu
+=~ Phone No.:015705766014510648 Fax No.:01-5706776
+ee Email No. :siddharthapremier@spil.com.np
+SE
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+DEPARTMENT: Marine
+
+Endorsement No. KTM/25/ 26/MR-C/E/00 130 Date :925 JUl-2025 os essssssccsecesscesseeeserseess
+INSURED : : KTM/25/26/MR-C/E/00143
+F.O./ Agent : 00000/20147
+Issued At : Head Office
+
+Issued Date : 03/06/2026
+
+Attaching to and forming part of Policy No........ KTM/24/25/MR-C/E/Q0924
+
+Endorsement No.
+
+Standard Chartered Bank Nepal Ltd.,
+
+Head office
+
+Global IME Bank Ltd., Head Office, Kathmandu, Everest
+Bank Ltd., Head Office, Kathmandu, Nepal SBI Bank Ltd.,
+Chabahil, Kathmandu, Nepal SBI Bank Ltd., Kamaladi,
+Kathmandu
+
+E.O.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+REFUND PREMIUM
+
+Premium Rs.
+RSD, MD & Terr. Rs.
+
+Third Party : 0.00
+13.00% VAT Rs.
+Stamp Rs. ६
+
+Total Rs.
+
+oe २
+८ बि बि ADDITIONAL PREMIUM
+Risk and Situation : =
+Premium Rs. :
+
+RSD, MD & Terr. Rs.
+Third Party : 0.00
+
+Transfer Fee : 0.00
+
+_
+
+Sub Total Rs. : 168,000.00
+
+_ पाए
+
+13.00% VAT Rs. : 21,840.00
+
+168,000.00
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Deciaration
+basis .#
+
+Stamp Rs.
+Total Rs. : 189,840.00
+Sum Insured Rs. : _1,230,000,000.00 Period From __ 03/06/2026 Till 01/07/2026
+‘Vat Inv No.:kTM/13212 Recent? Inv No. : KTM/013212 Receipt No. : KTM252613770 Receipt Date :06/03/2026
+
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is hereby declared and agreed that as per insured email dated 02.06.2026,
+sum insured under above mentioned policy has been increased By Rs. 70,000,000.00 , making total sum insured of Rs. 1,230,000,000.00
+In consequence to the above, additional premium of Rs. 189,840.00 including VAT is hereby charged to the insured.
+All other terms, limitations and conditions will remain the same.
+1 € ‘i
+&
+as
+VAC
+Non: 8/21/2026 At: 10:09:34AM
+
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque for, Siddhartha Premier Ins
+subject to realization"
+
+Authorized Signature
+
+Policy Approved By :  Sajani Poudel =
+
+Policy Issued By :  Rasala Tandukar लि "
+ame :
+Designation _. ~..3 Pre m/e?
+
+Pageiofi SID: Printed By:Ram Luitel
+
+--- Page 14 ---
+ad
+
+(oi
+
+KYC NO= SIL/01/18/19/101000359760 KFN=1/002869
+
+Siddhartha Premier Insurance Ltd.
+Head Office: Hanumansthan Anamnagar,Kathmandu
+Phone No.:015705766014510648 Fax No.:01-5706776
+Email No.:siddharthapremier@spil.com.np
+
+DEPARTMENT: Marine
+
+Attaching to and forming part of Policy No
+KTM/25/26/MR-C/E/00143
+
+Endorsement No
+INSURED :
+
+Standard Chartered Bank Nepal Ltd.,
+Head office
+
+E.0.L. PVT.LTD,
+
+Sanepa-2, Lalitpur, Bagmati
+
+Eel
+
+Risk and Situation :
+
+On Various Kind of Electrical/ Electronic Items , Spare Parts,
+their related accessories packed in Cartoons / Pallets /
+Boxes / Standard packaging . # Policy issued on Declaration
+basis .#
+
+Sum Insured Rs. : 1,230,686,732.00 Period From
+
+Vat Inv No. : KTM/014209
+Endorsement Wording :
+
+Notwithstanding anything to the contrary as contained therein, it is h
+sum insured under above mentioned policy has been increased By
+In consequence to the above, additional premium of Rs. 1,862.42
+
+All other terms, limitati
+
+subject to realization"
+Policy Issued By Rasala Tandukar
+Policy Approved By Sarala Prasai
+
+Pagelofi SID:
+
+Receipt No.
+
+Rs. 686
+
+Premium Rs.
+
+RSD, MD & Terr. Rs.
+Third Party
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+Premium Rs.
+
+RSD, MD & Terr. Rs.
+Third Party
+Transfer Fee
+
+Sub Total Rs.
+13.00% VAT Rs.
+Stamp Rs.
+
+Total Rs.
+
+30/06/2026
+KTM252614801
+
+ereby declared and agreed
+
+Si
+
+for,
+
+732.00 , making total ie
+including VAT is hereby charge
+ons and conditions will remain the same.
+"This policy shall be effective on receipt of Premium in Cash and / or Cheque
+
+ONAL PREMIUM
+1,648.16
+
+0.00
+0.00
+
+oe
+
+1,648.1
+214.26
+
+eT.)
+: 1,862.4
+Till 01/07/2026
+Receipt Date 06/30/2026
+
+that as per insured email dated 29.06.2026,
+m insured of Rs. 1,230,686,732.00
+
+to the insured.
+
+ddhartha Premier बुन्न Wi
+
+Authorized Signature
+
+Name
+
+Designation
+
+Printed By:Ram Luitel
+
+at
+A ¢
+AS
+
+2
+(छ)
+
+ated
+
+On: 8/21/2026 At: 10:09:59AM
+
+|
+
+%
+2,
+Wi
+
+९ anne ८
+
+—
+
+
+
+===== DOCUMENT: Unknown Document (Proforma_Invoice.pdf) =====
+
+--- Page 1 ---
+MIDEA ELECTRIC TRADING (SINGAPORE) CO., PTE LTD
+158 CECIL STREET #07-01/02 SINGAPORE 069545
+Tel : +86 15117149403 EMAIL: :maojiel0@midea.com
+
+f
+
+x6 ( Midea FROFORSA IBY OICE
+
+TO: EOL PVT.LTD. PINO: PI-KWHA-EOLWH 20260330
+CHAUDHARY HOUSE SANEPA, GPO BOX. 1073, DATE: 30-03-2026
+LALITPUR, NEPAL. PH:+977-1-5108101
+PAN NO: 303668844, EXIM CODE: 3036688440143NP
+EMAIL ID: BAJRANG.MITTAL@CHAUDHARYGROUP.COM
+
+| S.No. DESCRIPTION OF GOODS CAPACITY Rey UN ERIGE रछ
+|_| KENT BRANDELECTRICWATERHEATER |] )] | TOC
+|_ 1 |MODEL: ThermoQ 10 10LTRS । 60  32.509 । 1950.00
+| 2  |MODEL: ThermoQ 15 1SLTRS । 600 | 3650 (| 21900.00
+
+| 40 45:50 ।
+|_4 |MODEL:Heatwavel0 | TRS | 10 [ 2900 । 2900.00
+। 5 |MODEL:HeatwavelS | आफाएक 100 3100 । 31000.00
+|_6 |MODEL:Polar10 :।।  10025 | 60 | 32.00 । 1920.00
+100 | 36,000  36000.0
+। 8 |MODEL:Polar30 | 3025 | 380 | 4450
+|_9 |SPARE PARTS FORDAMAGE/BREAKAGEINTRANSIT ||
+|___|COUNTRY OFORIGIN: CHINA]
+| |H.SCODE:8516.10.00 000
+
+ie ToraL¢ropwonucusay । | 3900 || 3070.00
+
+IN WORDS: US DOLLAR ONE HUNDRED THIRTY THOUSAND SEVEN HUNDRED EIGHTY ONLY.
+
+TERMS:
+1) COUNTRY OF ORIGIN: CHINA 5) SIZE OF CONTAINER: 4*40 HQ
+2) PAYMENT TERM : 100% LC AT SIGHT 6) SHIPMENT METHOD: BY SEA AND ROAD
+
+3) DELIVERY TERM: FOB WUHU, CHINA
+4) COUNTRY OF FINAL DESTINATION: KATHMANDU NEPAL
+
+BENEFICIARY BANK DETAILS:
+
+1) BANK'S NAME: STANDARD CHARTERED BANK (SINGAPORE) LIMITED
+
+2) ACCOUNT NO: = 99038-07-0001(USD)
+
+3) SWIFT CODE: SCBLSG22
+
+4) ACCOUNT NAME: MIDEA ELECTRIC TRADING (SINGAPORE) CO PTE LTD
+
+5) BANK ADDRESS: 8 MARINA BOULEVARD #27-01, MARINA BAY FINANCIAL
+CENTRE , SINGAPORE 018981
+
+BENEFICIARY
+
+OY ot
+
+Qu
+
+2 मा wy
+
+
+===== DOCUMENT: Unknown Document (Required_Documents_List.pdf) =====
+
+--- Page 1 ---
+PIVOT RISK PVT.LTD
+Kupandol, Lalitpur
+PAN: 603507900
+Contact No: 9843653691,9851099693,9810392276
+Email: survey@pivotrisks.com ,info@pivotrisks.com
+
+LETTER FOR MARINE REQUIRED DOCUMENTS LIST
+
+Date: 2026/08/26
+
+We have been deputed for survey of the Claim of the Loss under Marine Policy on date 2026/08/26 and M/S EOL Pvt.Ltd and the
+following information was observed during our survey.
+
+Date of Loss 2026/08/20
+
+Cause of Loss
+
+Unknown
+
+Nature of Loss: Damage to consignment of electric water heater
+
+Estimated Loss: Unknown
+
+Brief Descriptions Damage to Kent Brand Electric Water heater and spare parts during transit
+
+Thus to proceed further with the claim, we request you to provide the following documents within Three days for your
+kind perusal and necessary actions.
+
+Required Documents of MARINE Claim
+
+1.
+
+2
+3
+4.
+5
+
+oon a
+
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+
+Intimation of the Claim
+
+Copy of Detail Insurance Policy
+
+Premium Receipt Copy
+
+Marine Filled Up Claim Form
+
+Estimated claim of loss
+
+Copy of Customs Pragyapan Patra (भन्सार प्रग्यापन पत्र) (for imports)
+Proforma Invoice (received)
+
+Supplier Invoice/Commercial Invoice(received)
+Supplier Packaging List
+
+Copy of the contract of carriage/transportation
+
+L/C Copy (received)
+
+Consignment Note
+
+Packing and Weighing Slip (received)
+
+Certificate of origin by beneficiaries(received)
+
+Bill of loading / Delivery Details of Goods (received)
+Copy of PAN No
+
+Copy of Company Registration.
+
+VCTS (Vehicle & Consignment Tracking System)
+
+Exit Note
+
+Damaged/Loss Photographs
+
+Note: Other documents would be asked as per the necessity and nature of loss as per requirement.
+
+Insurance Surveyor Insured Representative
+Pivot Risk Pvt.Ltd For:

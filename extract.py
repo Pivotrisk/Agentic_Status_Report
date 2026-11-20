@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = BASE_DIR / "Working_3" / "current"
+CURRENT_DIR = Path(__file__).resolve().parent
 CASE_TYPES_DIR = BASE_DIR / "Working_3" / "case_types"
 DEFAULT_CASE_TYPE = "property"
 
@@ -55,7 +55,7 @@ DEFAULT_FIELDS = [
 
 
 def default_current_output_dir() -> Path:
-    return CURRENT_DIR / "output"
+    return CURRENT_DIR / "current_output"
 
 
 def parse_args() -> argparse.Namespace:
@@ -72,7 +72,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--ocr",
         type=Path,
-        default=current_output_dir / "output.txt",
+        default=current_output_dir / "ocr_output.txt",
         help="OCR text file for the current case.",
     )
     parser.add_argument(
